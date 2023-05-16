@@ -15,7 +15,7 @@ hero: download.jpg
 
 ## Introduction
 
-Artificial intelligence (AI) is rapidly changing the world, and the security implications of this technology are vast. AI can be used to improve security in a number of ways, but it can also be used to create new and sophisticated cyberattacks.
+test Artificial intelligence (AI) is rapidly changing the world, and the security implications of this technology are vast. AI can be used to improve security in a number of ways, but it can also be used to create new and sophisticated cyberattacks.
 
 In this blog post, we will explore the security implications of AI, both positive and negative. We will discuss how AI can be used to improve security, and we will also discuss the potential risks that AI poses to security.
 
