@@ -1,0 +1,95 @@
+# section information
+section:
+  name: আমার-সম্পর্কে
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: বিশিষ্ট প্রযুক্তিবিদ (Distinguished Member of Technical Staff)
+# your company information
+company:
+  name: "Dell Technologies"
+  url: "https://www.dell.com"
+
+
+# a summary about you
+summary: 'আমি একজন সুদক্ষ তথ্য-নিরাপত্তা বিশেষজ্ঞ। আমি বিগত বারো বছরে বিভিন্ন সম্মানিত প্রতিষ্ঠানে উচ্চপদস্থ তথ্য-প্রযুক্তিবিদ হিসেবে কাজ করেছি। 16 টিরও বেশি আন্তর্জাতিক গবেষণা নিবন্ধ, বেশ কিছু পেটেন্ট এবং একটি বই প্রকাশ করেছি। এছাড়াও, বিভিন্ন তথ্য নিরাপত্তা সম্মেলন এবং বিশ্ববিদ্যালয়ে একজন সুবক্তা হিসেবে সম্মান অর্জন করেছি। আমি সমসময় কঠিন প্রযুক্তি-গত সমস্যার সমাধান করতে এবং নতুন প্রযুক্তি দ্রুত শিখে নিয়ে তা কাজে লাগাতে ভালবাসি। '
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "soumyamaity@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/soumyamaity"
+
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/soumyam"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "#"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/soumyamaity"
+
+
+
+
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "My Resume"
+  url: "files/SMAITY_short_CV.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: Certified Defensible Security Architect
+  url: "https://www.credly.com/earner/earned/badge/94997ba3-6a09-403b-b603-705ead8e5d80"
+  badge: "https://images.credly.com/size/680x680/images/4a1f018b-712c-44a7-b494-52ecdfe1ed35/image.png"
+
+- type: certification
+  name: Certified Information Security Professional
+  url: "https://www.credly.com/earner/earned/badge/59982167-fcc1-45a9-b05f-6bff56916219"
+  badge: "https://images.credly.com/size/680x680/images/efcd9fc7-0c8f-41f1-991d-985c693c240c/image.png"
+
+- type: certification
+  name: Certificate of Cloud Security Knowledge v.4
+  url: "https://www.credly.com/earner/earned/badge/4ebced2b-9867-47ba-9f46-c0299b51ad42"
+  badge: "https://images.credly.com/size/680x680/images/25ba8143-ac0a-413c-8c66-01c9edc4a80f/CCSK-v4-Credly-badge.png"
+
+- type: certification
+  name: Certfied Ethical Hacker v.9
+  url: "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/"
+  badge: "https://resources.infosecinstitute.com/wp-content/uploads/2020/10/CEH1.jpg"
+
+- type: soft-skill-indicator
+  name: Security Development Lifecycle
+  percentage: 95
+  color: blue
+
+- type: soft-skill-indicator
+  name: Threat Modeling
+  percentage: 90
+  color: yellow
+
+
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
