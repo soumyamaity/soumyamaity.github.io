@@ -19,68 +19,46 @@ degrees:
   publications: #(optional)
   - title: "PoliCon: A Policy Conciliation Framework for Heterogeneous Mobile Ad Hoc Networks"
     url: "https://onlinelibrary.wiley.com/doi/epdf/10.1002/sec.990"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
+  - title: "FINSAT: Formal Query based Network Security Configuration Analysis"
+    url: "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/iet-net.2013.0090"
+  - title: A Formal Verification Framework for Security Policy Management in Mobile IP based WLAN
+    url: "https://airccse.org/journal/nsa/1010ijnsa15.pdf"
+- name: B.Tech in Computer Science & Engineering
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2004-2008
   institution:
-    name: University of XYZ
-    url: "#"
+    name: Institute of Engineering and Management, Kolkata
+    url: "https://iem.edu.in/"
   grade: #(optional)
     scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
+    achieved: 8.6
+    outOf: 10
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Higher Secondary School Certificate
+  - President of Programming Club 2007
+  - Winner Best Student Project Award in 2008
+  - Organizer, TechFest 2008
+
+- name: Higher Secondary School Certificate(12+)
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 2002-2004
   institution:
-    name: MST College of Science
+    name: Jodhpur Park Boy's School, Kolkata, India
     url: "#"
   grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+    scale: percentage
+    achieved: 84
+    outOf: 100
+    
+
 - name: Secondary School Certificate
   icon: fa-school
-  timeframe: 2005-2010
+  timeframe: 1996-2002
   institution:
-    name: JK School of Science
+    name: Behala Aryya Vidyamandir, Kolkata, India
+    url: "#"
   grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    scale: percentage
+    achieved: 89
+    outOf: 100
+    
+    
