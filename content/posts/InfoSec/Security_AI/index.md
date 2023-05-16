@@ -13,7 +13,6 @@ categories: ["Infosec"]
 hero: download.jpg
 ---
 
-
 ## Introduction
 
 Artificial intelligence (AI) is rapidly changing the world, and the security implications of this technology are vast. AI can be used to improve security in a number of ways, but it can also be used to create new and sophisticated cyberattacks.
