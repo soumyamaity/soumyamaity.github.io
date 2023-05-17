@@ -3,20 +3,20 @@ baseURL: https://soumyamaity.github.io
 languageCode: en-us
 title: "Dr. Soumyo Maity"
 
-theme: "toha"
+
 # Use Hugo modules to add theme
-#module:
-#  imports:
-#  - path: themes/toha/
-#  mounts:
-#  - source: static/files
-#    target: static/files
-#  - source: ./node_modules/flag-icon-css/flags
-#    target: static/flags
-#  - source: ./node_modules/@fontsource/mulish/files
-#    target: static/files
-#  - source: ./node_modules/katex/dist/fonts
-#    target: static/fonts
+module:
+  imports:
+  - path: themes/toha/
+  mounts:
+  - source: static/files
+    target: static/files
+  - source: ./node_modules/flag-icon-css/flags
+    target: static/flags
+  - source: ./node_modules/@fontsource/mulish/files
+    target: static/files
+  - source: ./node_modules/katex/dist/fonts
+    target: static/fonts
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
