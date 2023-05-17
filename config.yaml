@@ -7,7 +7,7 @@ title: "Dr. Soumyo Maity"
 # Use Hugo modules to add theme
 module:
   imports:
-  - path: themes/toha/
+  - path: github.com/hugo-toha/toha
   mounts:
   - source: static/files
     target: static/files
