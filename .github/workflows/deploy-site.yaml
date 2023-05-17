@@ -30,7 +30,8 @@ jobs:
     - name: Install node modules
       run: |
         hugo mod npm pack
-        npm install        
+        npm install  
+        npm install jquery      
 
     - name: Build
       run: hugo --minify
