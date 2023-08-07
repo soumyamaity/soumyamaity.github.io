@@ -2,3 +2,4 @@ module github.com/soumyamaity/hugo-toha-smaity-website
 
 go 1.19
 
+require github.com/hugo-toha/toha/v4 v4.0.0-20230731163013-80205a71177e // indirect

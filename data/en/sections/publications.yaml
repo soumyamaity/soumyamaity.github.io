@@ -9,74 +9,45 @@ section:
   # hideTitle: true
 
 # filter buttons
-buttons:
-- name: All
-  filter: "all"
-- name: "Machine Learning"
-  filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Security
-  filter: "security"
+#buttons:
+#- name: All
+#  filter: "all"
+#- name: "Machine Learning"
+#  filter: "machinelearning"
+#- name: "Image Processing"
+#  filter: "image-processing"
+#- name: Security
+#  filter: "security"
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
+- title: Threat Modeling of Cloud Based Implementation Of Homomorphic Encryption
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: International Journal on Cryptography and Information Security (IJCIS), Volume 10(3), pp 21-33, Wireilla Scientific Publication
+    date: 2020
+    url: https://wireilla.com/papers/ijcis/V10N3/10320ijcis02.pdf
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
-  paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+  - name: S K Sreenivasaiah 
+    
+  - name: S Maity 
+    
+- title: PoliCon- A Policy Conciliation Framework for Heterogeneous Mobile Ad Hoc Networks
+  publishedIn:
+    name: Security and Communication Networks, Volume 8(3), pp. 418-430, John Wiley & Sons Ltd.   
+    date: 2015
+    url: https://onlinelibrary.wiley.com/doi/epdf/10.1002/sec.990
+  authors:
+    - name: S Maity
+    - name: S. K. Ghosh
+    - name: Ehab Al-Shaer
+  
 
-- title: An Sample Paper on Image Processing
-  publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+- title: Conflict resolution in heterogeneous co-allied MANET - a formal approach
+  publishedIn:  
+    name: International Conference on Distributed Computing and Networking (ICDCN2015), Lecture Notes on Computer Science, volume 8314, Springer Berlin Heidelberg 
+    date: 2015
+    url: https://link.springer.com/chapter/10.1007/978-3-642-45249-9_22
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
-  paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-    url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
-
-- title: An Example Paper on Security
-  publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
-  authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
-  paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+    - name: S Maity
+    - name: S. K. Ghosh
+    - name: Ehab Al-Shaer

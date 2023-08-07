@@ -3,7 +3,7 @@ section:
   name: Skills
   id: skills
   enable: true
-  weight: 2
+  weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -14,40 +14,40 @@ skills:
 - name: Threat Modeling
   logo: /images/sections/skills/threat_model.png
   summary: "Delivered critical Threat Models for 300+ complex commercial applications, appliances and embedded systems."
-  url: ""
+  url: "https://owasp.org/www-community/Threat_Modeling"
 
-- name: Security Development Lifecycle
+- name: Product Security and SDL
   logo: /images/sections/skills/sdl.png
   summary: "Technical Leader for implementing SDL across large organizations. Advisor to 50+ trusted products under Dell, DellEMC and RSA portfolio"
-  url: "https://golang.org/"
+  url: "https://en.wikipedia.org/wiki/Software_development_security"
 
 - name: Cloud Security
   logo: /images/sections/skills/cloud-security.png
   summary: "10 years in securing hosted applications in hyperscalers and in private cloud. Security advisor for cloudnative architecture and as-a-service products"
 
 - name: Zero Trust Architecture
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "https://www.docker.com/"
+  logo: /images/sections/skills/zta.png
+  summary: "Implemented and redsigned a Zero Trust Architecture (ZTA) on 10+ large software products and hosted Applications."
+  url: "https://en.wikipedia.org/wiki/Zero_trust_security_model"
 
 - name: Applied Cryptography
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
+  logo: /images/sections/skills/crypto.png
+  summary: "Proficient in cryptographic techniques to design and implement secure systems and applications, such as secure communication protocols, digital signatures, and secure databases."
+  url: "https://en.wikipedia.org/wiki/Cryptography"
 
-- name: IOT Security
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+- name: Security for AI models
+  logo: /images/sections/skills/ai.jpg
+  summary: "skilled and experienced to secure AI models from a variety of attacks, including data poisoning, model inversion, and adversarial examples."
 
 - name: Supply Chain Security
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+  logo: /images/sections/skills/supplychain.jpg
+  summary: "Thought Leader in Supply Chain Security for large enterprises"
+  url: "https://en.wikipedia.org/wiki/Supply_chain_security"
 
 - name: Prompt Engineering
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  logo: /images/sections/skills/sparc.png
+  summary: "Expertises in crafting natural language prompts that elicit informative and creative responses from large language models."
 
 - name: Security Penetration Test
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  logo: /images/sections/skills/pentest.png
+  summary: "Competent penetration tester who has natural aptitude to identifying and exploiting vulnerabilities in computer systems and networks. "
