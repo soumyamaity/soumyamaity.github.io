@@ -1,0 +1,64 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Ph.D in Information Technology
+  icon: fa-microscope
+  timeframe: 2009-2015
+  institution:
+    name: Indian Institute of Technology Kharagpur
+    url: "https://iitkgp.ac.in/"
+  publications: #(optional)
+  - title: "PoliCon: A Policy Conciliation Framework for Heterogeneous Mobile Ad Hoc Networks"
+    url: "https://onlinelibrary.wiley.com/doi/epdf/10.1002/sec.990"
+  - title: "FINSAT: Formal Query based Network Security Configuration Analysis"
+    url: "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/iet-net.2013.0090"
+  - title: A Formal Verification Framework for Security Policy Management in Mobile IP based WLAN
+    url: "https://airccse.org/journal/nsa/1010ijnsa15.pdf"
+- name: B.Tech in Computer Science & Engineering
+  icon: fa-graduation-cap
+  timeframe: 2004-2008
+  institution:
+    name: Institute of Engineering and Management, Kolkata
+    url: "https://iem.edu.in/"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 8.6
+    outOf: 10
+  extracurricularActivities: #(optional)
+  - President of Programming Club 2007
+  - Winner Best Student Project Award in 2008
+  - Organizer, TechFest 2008
+
+- name: Higher Secondary School Certificate(12+)
+  icon: fa-university
+  timeframe: 2002-2004
+  institution:
+    name: Jodhpur Park Boy's School, Kolkata, India
+    url: "#"
+  grade: #(optional)
+    scale: percentage
+    achieved: 84
+    outOf: 100
+    
+
+- name: Secondary School Certificate
+  icon: fa-school
+  timeframe: 1996-2002
+  institution:
+    name: Behala Aryya Vidyamandir, Kolkata, India
+    url: "#"
+  grade: #(optional)
+    scale: percentage
+    achieved: 89
+    outOf: 100
+    
+    
