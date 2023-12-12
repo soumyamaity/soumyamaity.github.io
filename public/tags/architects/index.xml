@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>architects on Dr. Soumyo Maity</title>
+    <link>https://soumyamaity.github.io/tags/architects/</link>
+    <description>Recent content in architects on Dr. Soumyo Maity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 24 Sep 2022 22:50:07 +0600</lastBuildDate><atom:link href="https://soumyamaity.github.io/tags/architects/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Application security for software architects</title>
+      <link>https://soumyamaity.github.io/posts/infosec/application-security-for-software-architects/</link>
+      <pubDate>Sat, 24 Sep 2022 22:50:07 +0600</pubDate>
+      
+      <guid>https://soumyamaity.github.io/posts/infosec/application-security-for-software-architects/</guid>
+      <description>As a software architect, you play a critical role in the security of your organization&amp;rsquo;s applications. You are responsible for designing and implementing applications that are secure by design.
+Here are some key things to keep in mind when it comes to application security:
+Applications are a target: Applications are a valuable target for attackers. They can be used to steal data, disrupt operations, or even launch attacks on other systems.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

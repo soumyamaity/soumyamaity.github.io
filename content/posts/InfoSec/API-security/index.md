@@ -7,7 +7,7 @@ menu:
       name: ""
       identifier: "API-security"
       Parent: infosec
-      weight: 10
+      weight: 100
 tags: ['API', 'security', 'InfoSec']
 categories: ["Infosec"]
 hero: 000001.jpg

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>monitoring on Dr. Soumyo Maity</title>
+    <link>https://soumyamaity.github.io/tags/monitoring/</link>
+    <description>Recent content in monitoring on Dr. Soumyo Maity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 27 Mar 2023 04:00:54 +0600</lastBuildDate><atom:link href="https://soumyamaity.github.io/tags/monitoring/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Application Security Monitoring</title>
+      <link>https://soumyamaity.github.io/posts/infosec/application-security-monitoring/</link>
+      <pubDate>Mon, 27 Mar 2023 04:00:54 +0600</pubDate>
+      
+      <guid>https://soumyamaity.github.io/posts/infosec/application-security-monitoring/</guid>
+      <description>Application security monitoring is the process of continuously tracking and analyzing applications for security vulnerabilities and threats. It is an essential part of any organization&amp;rsquo;s overall security program.
+There are a number of benefits to implementing application security monitoring, including:
+Early detection: By continuously monitoring applications, organizations can detect security vulnerabilities and threats early, before they can be exploited. Reduced risk of data breaches: By detecting and remediating security vulnerabilities early, organizations can reduce the risk of data breaches.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Runtime on Dr. Soumyo Maity</title>
+    <link>https://soumyamaity.github.io/tags/runtime/</link>
+    <description>Recent content in Runtime on Dr. Soumyo Maity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 30 Mar 2020 05:46:40 +0600</lastBuildDate><atom:link href="https://soumyamaity.github.io/tags/runtime/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Runtime Application Self-Protection (RASP)</title>
+      <link>https://soumyamaity.github.io/posts/infosec/runtime-application-self-protection-rasp/</link>
+      <pubDate>Mon, 30 Mar 2020 05:46:40 +0600</pubDate>
+      
+      <guid>https://soumyamaity.github.io/posts/infosec/runtime-application-self-protection-rasp/</guid>
+      <description>Runtime Application Self-Protection (RASP) is a security technology that helps protect applications from attack while they are running. RASP works by monitoring applications for malicious activity and taking action to prevent attacks from succeeding.
+RASP can be implemented in a variety of ways, but it typically involves embedding security logic directly into the application code. This allows RASP to monitor and protect applications from within, without the need for additional software or hardware.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

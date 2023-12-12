@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>(AST) on Dr. Soumyo Maity</title>
+    <link>https://soumyamaity.github.io/tags/ast/</link>
+    <description>Recent content in (AST) on Dr. Soumyo Maity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 May 2021 07:14:54 +0600</lastBuildDate><atom:link href="https://soumyamaity.github.io/tags/ast/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Application Security Testing: Protecting Your Apps</title>
+      <link>https://soumyamaity.github.io/posts/infosec/application-security-testing-ast/</link>
+      <pubDate>Tue, 04 May 2021 07:14:54 +0600</pubDate>
+      
+      <guid>https://soumyamaity.github.io/posts/infosec/application-security-testing-ast/</guid>
+      <description>Application security testing (AST) is the process of identifying and mitigating security vulnerabilities in software applications. AST can be performed at any stage of the software development lifecycle (SDLC), from design and development to testing and deployment.
+There are a number of different AST techniques, including:
+Static application security testing (SAST): SAST tools analyze the source code of an application to identify potential security vulnerabilities. Dynamic application security testing (DAST): DAST tools interact with an application in its running state to identify potential security vulnerabilities.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on Dr. Soumyo Maity</title>
+    <link>https://soumyamaity.github.io/tags/programming/</link>
+    <description>Recent content in programming on Dr. Soumyo Maity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 31 Aug 2021 09:17:23 +0600</lastBuildDate><atom:link href="https://soumyamaity.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Object-oriented programming (OOP) injection: A threat to your code</title>
+      <link>https://soumyamaity.github.io/posts/infosec/object-oriented-programming-oop-injection/</link>
+      <pubDate>Tue, 31 Aug 2021 09:17:23 +0600</pubDate>
+      
+      <guid>https://soumyamaity.github.io/posts/infosec/object-oriented-programming-oop-injection/</guid>
+      <description>In object-oriented programming (OOP), classes are used to represent real-world objects. Classes have attributes, which represent the properties of an object, and methods, which represent the actions that an object can perform.
+OOP injection is a type of code injection attack that takes advantage of the way that classes are defined in OOP languages. In an OOP injection attack, an attacker injects malicious code into a class definition. This malicious code can then be executed when the class is instantiated.</description>
+    </item>
+    
+    <item>
+      <title>API Security: Protecting Your Data</title>
+      <link>https://soumyamaity.github.io/posts/infosec/application-programming-interface-api-security/</link>
+      <pubDate>Fri, 13 Aug 2021 12:10:19 +0600</pubDate>
+      
+      <guid>https://soumyamaity.github.io/posts/infosec/application-programming-interface-api-security/</guid>
+      <description>Application programming interfaces (APIs) are everywhere. They&amp;rsquo;re used to power everything from mobile apps to cloud-based services. And as APIs become more and more ubiquitous, so too does the risk of API security breaches.
+In fact, a recent study by the Ponemon Institute found that the average cost of a data breach involving APIs is now over $4 million. That&amp;rsquo;s a significant increase from just a few years ago, and it&amp;rsquo;s a trend that&amp;rsquo;s only going to continue in the future.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

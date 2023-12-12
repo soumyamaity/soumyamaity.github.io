@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web on Dr. Soumyo Maity</title>
+    <link>https://soumyamaity.github.io/tags/web/</link>
+    <description>Recent content in web on Dr. Soumyo Maity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 13 Jul 2022 15:35:37 +0600</lastBuildDate><atom:link href="https://soumyamaity.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Open Web Application Security Project (OWASP)</title>
+      <link>https://soumyamaity.github.io/posts/infosec/open-web-application-security-project-owasp/</link>
+      <pubDate>Wed, 13 Jul 2022 15:35:37 +0600</pubDate>
+      
+      <guid>https://soumyamaity.github.io/posts/infosec/open-web-application-security-project-owasp/</guid>
+      <description>The Open Web Application Security Project (OWASP) is a non-profit organization that provides information about web application security. OWASP is a community-driven organization that relies on the contributions of volunteers from all over the world.
+OWASP has a number of resources available to help developers, security professionals, and organizations improve the security of their web applications. These resources include:
+OWASP Top 10: The OWASP Top 10 is a list of the most critical web application security risks.</description>
+    </item>
+    
+    <item>
+      <title>Web Application Firewall (WAF)</title>
+      <link>https://soumyamaity.github.io/posts/infosec/web-application-firewall-waf/</link>
+      <pubDate>Tue, 18 Jan 2022 22:01:42 +0600</pubDate>
+      
+      <guid>https://soumyamaity.github.io/posts/infosec/web-application-firewall-waf/</guid>
+      <description>A Web Application Firewall (WAF) is a security device that monitors and filters HTTP traffic between a web application and the internet. WAFs are designed to protect web applications from a variety of attacks, including cross-site scripting (XSS), SQL injection, and denial-of-service (DoS) attacks.
+WAFs work by inspecting HTTP traffic and identifying patterns that are associated with attacks. When a WAF identifies a suspicious pattern, it can take a variety of actions, such as blocking the traffic, logging the traffic, or rewriting the traffic.</description>
+    </item>
+    
+    <item>
+      <title>Web Development Security</title>
+      <link>https://soumyamaity.github.io/posts/infosec/web-development-security/</link>
+      <pubDate>Sun, 16 Jan 2022 06:57:09 +0600</pubDate>
+      
+      <guid>https://soumyamaity.github.io/posts/infosec/web-development-security/</guid>
+      <description>Web development is a complex and ever-evolving field. But there are a number of things that developers can do to help protect their web applications from attack.
+Here are some of the most important things that developers can do to improve their web application security:
+Use secure coding practices: There are a number of secure coding practices that developers can follow to help prevent vulnerabilities in their code. These practices include things like input validation, output encoding, and error handling.</description>
+    </item>
+    
+    <item>
+      <title>Web Application Security Testing (WAST)</title>
+      <link>https://soumyamaity.github.io/posts/infosec/web-application-security-testing-wast/</link>
+      <pubDate>Sun, 14 Feb 2021 18:33:25 +0600</pubDate>
+      
+      <guid>https://soumyamaity.github.io/posts/infosec/web-application-security-testing-wast/</guid>
+      <description>Web application security testing (WAST) is the process of identifying and assessing security vulnerabilities in web applications. It is an important part of any organization&amp;rsquo;s information security program.
+WAST can be conducted manually or using automated tools. Manual WAST is typically more thorough, but it can be time-consuming and expensive. Automated WAST is less thorough, but it can be conducted quickly and easily.
+The results of a WAST can be used to prioritize security efforts, to develop mitigation strategies, and to improve the overall security posture of an organization.</description>
+    </item>
+    
+    <item>
+      <title>Application security for web developers</title>
+      <link>https://soumyamaity.github.io/posts/infosec/application-security-for-web-developers/</link>
+      <pubDate>Sat, 12 Dec 2020 01:35:02 +0600</pubDate>
+      
+      <guid>https://soumyamaity.github.io/posts/infosec/application-security-for-web-developers/</guid>
+      <description>As a web developer, you play a critical role in the security of your organization&amp;rsquo;s web applications. You are responsible for writing secure code that protects sensitive data and prevents attackers from exploiting vulnerabilities.
+Here are some key things to keep in mind when it comes to web application security:
+Web applications are a target: Web applications are a valuable target for attackers. They can be used to steal data, disrupt operations, or even launch attacks on other systems.</description>
+    </item>
+    
+    <item>
+      <title>Web Application Security</title>
+      <link>https://soumyamaity.github.io/posts/infosec/web-application-security/</link>
+      <pubDate>Thu, 30 Apr 2020 01:20:47 +0600</pubDate>
+      
+      <guid>https://soumyamaity.github.io/posts/infosec/web-application-security/</guid>
+      <description>Web applications are a critical part of our lives. We use them to shop, bank, and communicate with friends and family. But web applications are also a target for attackers. Every day, attackers try to exploit vulnerabilities in web applications to steal data, disrupt services, or cause damage.
+Web application security is a complex and ever-evolving field. But there are a number of things that organizations can do to protect their web applications from attack.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

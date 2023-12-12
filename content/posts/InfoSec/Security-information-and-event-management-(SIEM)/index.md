@@ -5,9 +5,9 @@ description: "Security information and event management (SIEM)"
 menu:
    sidebar:
       name: "Security Information and Event Management (SIEM)"
-      identifier: "Security-information-and-event-management-(SIEM)"
+      identifier: "0Security-information-and-event-management-(SIEM)"
       Parent: infosec
-      weight: 10
+      weight: 100
 tags: ['Security', 'information', 'and', 'event', 'management', '(SIEM)', 'InfoSec']
 categories: ["Infosec"]
 hero: 000001.jpg

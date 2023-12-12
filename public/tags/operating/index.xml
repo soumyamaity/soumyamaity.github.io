@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operating on Dr. Soumyo Maity</title>
+    <link>https://soumyamaity.github.io/tags/operating/</link>
+    <description>Recent content in Operating on Dr. Soumyo Maity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Aug 2021 18:11:43 +0600</lastBuildDate><atom:link href="https://soumyamaity.github.io/tags/operating/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Operating System Security</title>
+      <link>https://soumyamaity.github.io/posts/infosec/operating-system-security/</link>
+      <pubDate>Sun, 15 Aug 2021 18:11:43 +0600</pubDate>
+      
+      <guid>https://soumyamaity.github.io/posts/infosec/operating-system-security/</guid>
+      <description>Operating systems (OS) are the foundation of all computing devices. They provide the basic services that allow us to run applications, access files, and connect to networks. As such, OS security is critical to the overall security of our devices and data.
+There are a number of threats to OS security, including:
+Malware: Malware, such as viruses, worms, and Trojan horses, can be used to steal data, damage systems, or disrupt operations.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

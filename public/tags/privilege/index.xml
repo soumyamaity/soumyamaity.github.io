@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Privilege on Dr. Soumyo Maity</title>
+    <link>https://soumyamaity.github.io/tags/privilege/</link>
+    <description>Recent content in Privilege on Dr. Soumyo Maity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 29 Nov 2022 05:04:48 +0600</lastBuildDate><atom:link href="https://soumyamaity.github.io/tags/privilege/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Privilege escalation: What it is and how to prevent it</title>
+      <link>https://soumyamaity.github.io/posts/infosec/privilege-escalation/</link>
+      <pubDate>Tue, 29 Nov 2022 05:04:48 +0600</pubDate>
+      
+      <guid>https://soumyamaity.github.io/posts/infosec/privilege-escalation/</guid>
+      <description>In the world of cybersecurity, privilege escalation is a serious threat. It occurs when an attacker gains unauthorized access to a system or application with elevated privileges. This can allow the attacker to do things like steal data, delete files, or even take control of the system.
+There are a number of ways that privilege escalation can be carried out. Some of the most common methods include:
+Exploiting software vulnerabilities: Attackers can exploit software vulnerabilities to gain unauthorized access to systems or applications.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

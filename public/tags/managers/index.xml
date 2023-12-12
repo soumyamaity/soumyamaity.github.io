@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>managers on Dr. Soumyo Maity</title>
+    <link>https://soumyamaity.github.io/tags/managers/</link>
+    <description>Recent content in managers on Dr. Soumyo Maity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Feb 2020 06:02:10 +0600</lastBuildDate><atom:link href="https://soumyamaity.github.io/tags/managers/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Application security for managers</title>
+      <link>https://soumyamaity.github.io/posts/infosec/application-security-for-managers/</link>
+      <pubDate>Thu, 13 Feb 2020 06:02:10 +0600</pubDate>
+      
+      <guid>https://soumyamaity.github.io/posts/infosec/application-security-for-managers/</guid>
+      <description>As a manager, you are responsible for the security of your organization&amp;rsquo;s applications. This means ensuring that applications are developed, deployed, and operated securely.
+Here are some key things to keep in mind when it comes to application security:
+Applications are a target: Applications are a valuable target for attackers. They can be used to steal data, disrupt operations, or even launch attacks on other systems. Applications are complex: Applications are complex pieces of software.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

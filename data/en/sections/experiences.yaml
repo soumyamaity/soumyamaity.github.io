@@ -54,13 +54,25 @@ experiences:
     - Process owner of Secure coding drive and Security Analysis
     - Awarded as Gamechanger of 2020 
 
+
+- company:
+    name: REVA university
+    url: "https://race.reva.edu.in/"
+    location: India
+    overview: REVA University is one of the Best colleges in Bangalore, Karnataka offering many courses specializing in Engineering, Law, Management, and other.
+  positions:
+  - designation: Industry Mentor and Guest Faculty
+    start: July 2019
+    
+
+
 - company:
     name: OpenText
     url: "https://www.opentext.com"
-    location: Bangalore, india
+    location: Bangalore, India
     overview: OpenText is a global enterprise software company that provides solutions for managing information and improving operational efficiency. OpenText is a leading provider of enterprise information management software.
   positions:
-  - designation: Software Engineer
+  - designation: Principal Software Engineer
     start: February 2017
     end: March 2018
     responsibilities:
