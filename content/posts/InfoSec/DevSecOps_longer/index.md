@@ -1,16 +1,19 @@
 ---
-title: "DevSecOps: The Future of Security"
-date: 2021-04-01T00:24:58+06:00
-description: "DevSecOps_longer"
-menu:
-   sidebar:
-      name: "DevSecOps: The Future of Security"
-      identifier: "DevSecOps_longer"
-      Parent: infosec
-      weight: 10
-tags: ['DevSecOps_longer', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-04-01 00:24:58+06:00
+description: DevSecOps_longer
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: DevSecOps_longer
+    name: 'DevSecOps: The Future of Security'
+    weight: 789599
+tags:
+- DevSecOps_longer
+- InfoSec
+title: 'DevSecOps: The Future of Security'
 ---
 
 

@@ -1,16 +1,22 @@
 ---
-title: "Application security for everyone"
-date: 2022-02-25T19:41:12+06:00
-description: "Application security for everyone"
-menu:
-   sidebar:
-      name: "Application security for everyone"
-      identifier: "Application-security-for-everyone"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'for', 'everyone', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-02-25 19:41:12+06:00
+description: Application security for everyone
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-for-everyone
+    name: Application security for everyone
+    weight: 779775
+tags:
+- Application
+- security
+- for
+- everyone
+- InfoSec
+title: Application security for everyone
 ---
 
 

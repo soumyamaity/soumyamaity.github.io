@@ -1,16 +1,22 @@
 ---
-title: "Application Security Testing: Protecting Your Apps"
-date: 2021-05-04T07:14:54+06:00
-description: "Application security testing (AST)"
-menu:
-   sidebar:
-      name: "Application Security Testing: Protecting Your Apps"
-      identifier: "Application-security-testing-(AST)"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'testing', '(AST)', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-05-04 07:14:54+06:00
+description: Application security testing (AST)
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-testing-(AST)
+    name: 'Application Security Testing: Protecting Your Apps'
+    weight: 789496
+tags:
+- Application
+- security
+- testing
+- (AST)
+- InfoSec
+title: 'Application Security Testing: Protecting Your Apps'
 ---
 
 

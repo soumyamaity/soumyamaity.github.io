@@ -1,16 +1,23 @@
 ---
-title: "Application security for IT professionals"
-date: 2021-03-02T18:02:14+06:00
-description: "Application security for IT professionals"
-menu:
-   sidebar:
-      name: "Application security for IT professionals"
-      identifier: "Application-security-for-IT-professionals"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'for', 'IT', 'professionals', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-03-02 18:02:14+06:00
+description: Application security for IT professionals
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-for-IT-professionals
+    name: Application security for IT professionals
+    weight: 789698
+tags:
+- Application
+- security
+- for
+- IT
+- professionals
+- InfoSec
+title: Application security for IT professionals
 ---
 
 

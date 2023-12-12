@@ -1,16 +1,20 @@
 ---
-title: "Browser Security"
-date: 2019-03-08T00:55:38+06:00
-description: "Browser security"
-menu:
-   sidebar:
-      name: "Browser Security"
-      identifier: "Browser-security"
-      Parent: infosec
-      weight: 10
-tags: ['Browser', 'security', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-03-08 00:55:38+06:00
+description: Browser security
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Browser-security
+    name: Browser Security
+    weight: 809692
+tags:
+- Browser
+- security
+- InfoSec
+title: Browser Security
 ---
 
 

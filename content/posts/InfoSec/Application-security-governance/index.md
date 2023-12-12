@@ -1,16 +1,21 @@
 ---
-title: "Application Security Governance"
-date: 2023-01-13T18:48:17+06:00
-description: "Application security governance"
-menu:
-   sidebar:
-      name: "Application Security Governance"
-      identifier: "Application-security-governance"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'governance', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2023-01-13 18:48:17+06:00
+description: Application security governance
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-governance
+    name: Application Security Governance
+    weight: 769887
+tags:
+- Application
+- security
+- governance
+- InfoSec
+title: Application Security Governance
 ---
 
 

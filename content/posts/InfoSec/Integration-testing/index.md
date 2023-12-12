@@ -1,16 +1,20 @@
 ---
-title: "Integration Testing: The Next Step in Software Testing"
-date: 2021-10-06T05:05:40+06:00
-description: "Integration testing"
-menu:
-   sidebar:
-      name: "Integration Testing: The Next Step in Software Testing"
-      identifier: "Integration-testing"
-      Parent: infosec
-      weight: 10
-tags: ['Integration', 'testing', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-10-06 05:05:40+06:00
+description: Integration testing
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Integration-testing
+    name: 'Integration Testing: The Next Step in Software Testing'
+    weight: 788994
+tags:
+- Integration
+- testing
+- InfoSec
+title: 'Integration Testing: The Next Step in Software Testing'
 ---
 
 

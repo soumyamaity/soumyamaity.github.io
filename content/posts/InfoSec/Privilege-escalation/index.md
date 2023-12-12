@@ -1,16 +1,20 @@
 ---
-title: "Privilege escalation: What it is and how to prevent it"
-date: 2022-11-29T05:04:48+06:00
-description: "Privilege escalation"
-menu:
-   sidebar:
-      name: "Privilege escalation: What it is and how to prevent it"
-      identifier: "Privilege-escalation"
-      Parent: infosec
-      weight: 10
-tags: ['Privilege', 'escalation', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-11-29 05:04:48+06:00
+description: Privilege escalation
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Privilege-escalation
+    name: 'Privilege escalation: What it is and how to prevent it'
+    weight: 778871
+tags:
+- Privilege
+- escalation
+- InfoSec
+title: 'Privilege escalation: What it is and how to prevent it'
 ---
 
 

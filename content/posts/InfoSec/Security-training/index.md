@@ -1,16 +1,20 @@
 ---
-title: "Security Training"
-date: 2021-09-02T07:38:04+06:00
-description: "Security training"
-menu:
-   sidebar:
-      name: "Security Training"
-      identifier: "Security-training"
-      Parent: infosec
-      weight: 10
-tags: ['Security', 'training', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-09-02 07:38:04+06:00
+description: Security training
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Security-training
+    name: Security Training
+    weight: 789098
+tags:
+- Security
+- training
+- InfoSec
+title: Security Training
 ---
 
 

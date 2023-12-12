@@ -1,16 +1,21 @@
 ---
-title: "Enterprise Application Security"
-date: 2021-05-20T11:55:25+06:00
-description: "Enterprise application security"
-menu:
-   sidebar:
-      name: "Enterprise Application Security"
-      identifier: "Enterprise-application-security"
-      Parent: infosec
-      weight: 10
-tags: ['Enterprise', 'application', 'security', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-05-20 11:55:25+06:00
+description: Enterprise application security
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Enterprise-application-security
+    name: Enterprise Application Security
+    weight: 789480
+tags:
+- Enterprise
+- application
+- security
+- InfoSec
+title: Enterprise Application Security
 ---
 
 

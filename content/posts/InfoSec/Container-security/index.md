@@ -1,16 +1,20 @@
 ---
-title: "Container Security: Keeping Your Applications Safe"
-date: 2019-09-18T10:08:23+06:00
-description: "Container security"
-menu:
-   sidebar:
-      name: "Container Security: Keeping Your Applications Safe"
-      identifier: "Container-security"
-      Parent: infosec
-      weight: 10
-tags: ['Container', 'security', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-09-18 10:08:23+06:00
+description: Container security
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Container-security
+    name: 'Container Security: Keeping Your Applications Safe'
+    weight: 809082
+tags:
+- Container
+- security
+- InfoSec
+title: 'Container Security: Keeping Your Applications Safe'
 ---
 
 

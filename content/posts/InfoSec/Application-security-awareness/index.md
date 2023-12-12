@@ -1,16 +1,21 @@
 ---
-title: "Application Security Awareness"
-date: 2019-08-09T07:50:20+06:00
-description: "Application security awareness"
-menu:
-   sidebar:
-      name: "Application Security Awareness"
-      identifier: "Application-security-awareness"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'awareness', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-08-09 07:50:20+06:00
+description: Application security awareness
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-awareness
+    name: Application Security Awareness
+    weight: 809191
+tags:
+- Application
+- security
+- awareness
+- InfoSec
+title: Application Security Awareness
 ---
 
 

@@ -1,16 +1,23 @@
 ---
-title: "Application security for software engineers"
-date: 2019-10-11T05:33:23+06:00
-description: "Application security for software engineers"
-menu:
-   sidebar:
-      name: "Application security for software engineers"
-      identifier: "Application-security-for-software-engineers"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'for', 'software', 'engineers', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-10-11 05:33:23+06:00
+description: Application security for software engineers
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-for-software-engineers
+    name: Application security for software engineers
+    weight: 808989
+tags:
+- Application
+- security
+- for
+- software
+- engineers
+- InfoSec
+title: Application security for software engineers
 ---
 
 

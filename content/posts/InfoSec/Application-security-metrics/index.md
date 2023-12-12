@@ -1,16 +1,21 @@
 ---
-title: "Application Security Metrics"
-date: 2020-05-04T06:25:55+06:00
-description: "Application security metrics"
-menu:
-   sidebar:
-      name: "Application Security Metrics"
-      identifier: "Application-security-metrics"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'metrics', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-05-04 06:25:55+06:00
+description: Application security metrics
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-metrics
+    name: Application Security Metrics
+    weight: 799496
+tags:
+- Application
+- security
+- metrics
+- InfoSec
+title: Application Security Metrics
 ---
 
 

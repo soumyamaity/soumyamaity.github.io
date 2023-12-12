@@ -1,16 +1,21 @@
 ---
-title: "Wireless Security Architecture"
-date: 2021-12-26T21:25:49+06:00
-description: "Wireless security architecture"
-menu:
-   sidebar:
-      name: "Wireless Security Architecture"
-      identifier: "Wireless-security-architecture"
-      Parent: infosec
-      weight: 10
-tags: ['Wireless', 'security', 'architecture', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-12-26 21:25:49+06:00
+description: Wireless security architecture
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Wireless-security-architecture
+    name: Wireless Security Architecture
+    weight: 788774
+tags:
+- Wireless
+- security
+- architecture
+- InfoSec
+title: Wireless Security Architecture
 ---
 
 

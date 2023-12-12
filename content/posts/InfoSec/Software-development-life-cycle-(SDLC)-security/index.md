@@ -1,16 +1,24 @@
 ---
-title: "Software Development Life Cycle (SDLC) Security"
-date: 2021-08-13T21:44:26+06:00
-description: "Software development life cycle (SDLC) security"
-menu:
-   sidebar:
-      name: "Software Development Life Cycle (SDLC) Security"
-      identifier: "Software-development-life-cycle-(SDLC)-security"
-      Parent: infosec
-      weight: 10
-tags: ['Software', 'development', 'life', 'cycle', '(SDLC)', 'security', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-08-13 21:44:26+06:00
+description: Software development life cycle (SDLC) security
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Software-development-life-cycle-(SDLC)-security
+    name: Software Development Life Cycle (SDLC) Security
+    weight: 789187
+tags:
+- Software
+- development
+- life
+- cycle
+- (SDLC)
+- security
+- InfoSec
+title: Software Development Life Cycle (SDLC) Security
 ---
 
 

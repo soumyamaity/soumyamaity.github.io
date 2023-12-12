@@ -1,16 +1,22 @@
 ---
-title: "Runtime Application Self-Protection (RASP)"
-date: 2020-03-30T05:46:40+06:00
-description: "Runtime application self-protection (RASP)"
-menu:
-   sidebar:
-      name: "Runtime Application Self-Protection (RASP)"
-      identifier: "Runtime-application-self-protection-(RASP)"
-      Parent: infosec
-      weight: 10
-tags: ['Runtime', 'application', 'self-protection', '(RASP)', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-03-30 05:46:40+06:00
+description: Runtime application self-protection (RASP)
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Runtime-application-self-protection-(RASP)
+    name: Runtime Application Self-Protection (RASP)
+    weight: 799670
+tags:
+- Runtime
+- application
+- self-protection
+- (RASP)
+- InfoSec
+title: Runtime Application Self-Protection (RASP)
 ---
 
 

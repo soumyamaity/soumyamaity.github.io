@@ -1,16 +1,20 @@
 ---
-title: "Zero-Day Attacks"
-date: 2022-03-13T10:08:08+06:00
-description: "Zero-day attacks"
-menu:
-   sidebar:
-      name: "Zero-Day Attacks"
-      identifier: "Zero-day-attacks"
-      Parent: infosec
-      weight: 10
-tags: ['Zero-day', 'attacks', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-03-13 10:08:08+06:00
+description: Zero-day attacks
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Zero-day-attacks
+    name: Zero-Day Attacks
+    weight: 779687
+tags:
+- Zero-day
+- attacks
+- InfoSec
+title: Zero-Day Attacks
 ---
 
 

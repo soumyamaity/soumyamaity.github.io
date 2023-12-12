@@ -1,16 +1,21 @@
 ---
-title: "Security Awareness Training"
-date: 2019-09-03T07:09:05+06:00
-description: "Security awareness training"
-menu:
-   sidebar:
-      name: "Security Awareness Training"
-      identifier: "Security-awareness-training"
-      Parent: infosec
-      weight: 10
-tags: ['Security', 'awareness', 'training', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-09-03 07:09:05+06:00
+description: Security awareness training
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Security-awareness-training
+    name: Security Awareness Training
+    weight: 809097
+tags:
+- Security
+- awareness
+- training
+- InfoSec
+title: Security Awareness Training
 ---
 
 

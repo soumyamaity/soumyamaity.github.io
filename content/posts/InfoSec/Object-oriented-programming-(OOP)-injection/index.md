@@ -1,16 +1,22 @@
 ---
-title: "Object-oriented programming (OOP) injection: A threat to your code"
-date: 2021-08-31T09:17:23+06:00
-description: "Object-oriented programming (OOP) injection"
-menu:
-   sidebar:
-      name: "Object-oriented programming (OOP) injection: A threat to your code"
-      identifier: "Object-oriented-programming-(OOP)-injection"
-      Parent: infosec
-      weight: 10
-tags: ['Object-oriented', 'programming', '(OOP)', 'injection', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-08-31 09:17:23+06:00
+description: Object-oriented programming (OOP) injection
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Object-oriented-programming-(OOP)-injection
+    name: 'Object-oriented programming (OOP) injection: A threat to your code'
+    weight: 789169
+tags:
+- Object-oriented
+- programming
+- (OOP)
+- injection
+- InfoSec
+title: 'Object-oriented programming (OOP) injection: A threat to your code'
 ---
 
 

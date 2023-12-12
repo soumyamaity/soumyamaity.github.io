@@ -1,16 +1,21 @@
 ---
-title: "Application Security Compliance"
-date: 2022-01-07T03:13:39+06:00
-description: "Application security compliance"
-menu:
-   sidebar:
-      name: "Application Security Compliance"
-      identifier: "Application-security-compliance"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'compliance', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-01-07 03:13:39+06:00
+description: Application security compliance
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-compliance
+    name: Application Security Compliance
+    weight: 779893
+tags:
+- Application
+- security
+- compliance
+- InfoSec
+title: Application Security Compliance
 ---
 
 

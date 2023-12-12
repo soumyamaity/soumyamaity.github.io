@@ -1,16 +1,20 @@
 ---
-title: "Code Analysis: Finding and Fixing Security Vulnerabilities"
-date: 2020-09-20T05:43:57+06:00
-description: "Code analysis"
-menu:
-   sidebar:
-      name: "Code Analysis: Finding and Fixing Security Vulnerabilities"
-      identifier: "Code-analysis"
-      Parent: infosec
-      weight: 10
-tags: ['Code', 'analysis', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-09-20 05:43:57+06:00
+description: Code analysis
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Code-analysis
+    name: 'Code Analysis: Finding and Fixing Security Vulnerabilities'
+    weight: 799080
+tags:
+- Code
+- analysis
+- InfoSec
+title: 'Code Analysis: Finding and Fixing Security Vulnerabilities'
 ---
 
 

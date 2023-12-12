@@ -1,16 +1,21 @@
 ---
-title: "Web Application Security"
-date: 2020-04-30T01:20:47+06:00
-description: "Web application security"
-menu:
-   sidebar:
-      name: "Web Application Security"
-      identifier: "Web-application-security"
-      Parent: infosec
-      weight: 10
-tags: ['Web', 'application', 'security', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-04-30 01:20:47+06:00
+description: Web application security
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Web-application-security
+    name: Web Application Security
+    weight: 799570
+tags:
+- Web
+- application
+- security
+- InfoSec
+title: Web Application Security
 ---
 
 

@@ -1,16 +1,20 @@
 ---
-title: "Fuzz Testing: A Black-Box Testing Technique"
-date: 2020-11-02T17:18:30+06:00
-description: "Fuzz testing"
-menu:
-   sidebar:
-      name: "Fuzz Testing: A Black-Box Testing Technique"
-      identifier: "Fuzz-testing"
-      Parent: infosec
-      weight: 10
-tags: ['Fuzz', 'testing', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-11-02 17:18:30+06:00
+description: Fuzz testing
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Fuzz-testing
+    name: 'Fuzz Testing: A Black-Box Testing Technique'
+    weight: 798898
+tags:
+- Fuzz
+- testing
+- InfoSec
+title: 'Fuzz Testing: A Black-Box Testing Technique'
 ---
 
 

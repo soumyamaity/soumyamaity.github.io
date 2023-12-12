@@ -1,16 +1,23 @@
 ---
-title: "Dynamic Application Security Testing (DAST): A Hands-On Approach"
-date: 2019-12-27T11:20:59+06:00
-description: "Dynamic application security testing (DAST)"
-menu:
-   sidebar:
-      name: "Dynamic Application Security Testing (DAST): A Hands-On Approach"
-      identifier: "Dynamic-application-security-testing-(DAST)"
-      Parent: infosec
-      weight: 10
-tags: ['Dynamic', 'application', 'security', 'testing', '(DAST)', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-12-27 11:20:59+06:00
+description: Dynamic application security testing (DAST)
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Dynamic-application-security-testing-(DAST)
+    name: 'Dynamic Application Security Testing (DAST): A Hands-On Approach'
+    weight: 808773
+tags:
+- Dynamic
+- application
+- security
+- testing
+- (DAST)
+- InfoSec
+title: 'Dynamic Application Security Testing (DAST): A Hands-On Approach'
 ---
 
 

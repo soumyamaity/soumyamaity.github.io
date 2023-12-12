@@ -1,16 +1,22 @@
 ---
-title: "Software Composition Analysis (SCA): A Deep Dive"
-date: 2023-01-20T16:54:11+06:00
-description: "Software composition analysis (SCA)"
-menu:
-   sidebar:
-      name: "Software Composition Analysis (SCA): A Deep Dive"
-      identifier: "Software-composition-analysis-(SCA)"
-      Parent: infosec
-      weight: 10
-tags: ['Software', 'composition', 'analysis', '(SCA)', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2023-01-20 16:54:11+06:00
+description: Software composition analysis (SCA)
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Software-composition-analysis-(SCA)
+    name: 'Software Composition Analysis (SCA): A Deep Dive'
+    weight: 769880
+tags:
+- Software
+- composition
+- analysis
+- (SCA)
+- InfoSec
+title: 'Software Composition Analysis (SCA): A Deep Dive'
 ---
 
 

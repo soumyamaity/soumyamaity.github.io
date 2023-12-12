@@ -1,16 +1,20 @@
 ---
-title: "Cloud Security: Protecting Your Data in the Cloud"
-date: 2022-04-30T20:44:01+06:00
-description: "Cloud security"
-menu:
-   sidebar:
-      name: "Cloud Security: Protecting Your Data in the Cloud"
-      identifier: "Cloud-security"
-      Parent: infosec
-      weight: 10
-tags: ['Cloud', 'security', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-04-30 20:44:01+06:00
+description: Cloud security
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Cloud-security
+    name: 'Cloud Security: Protecting Your Data in the Cloud'
+    weight: 779570
+tags:
+- Cloud
+- security
+- InfoSec
+title: 'Cloud Security: Protecting Your Data in the Cloud'
 ---
 
 

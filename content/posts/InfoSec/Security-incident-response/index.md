@@ -1,16 +1,21 @@
 ---
-title: "Security Incident Response"
-date: 2020-06-08T00:55:46+06:00
-description: "Security incident response"
-menu:
-   sidebar:
-      name: "Security Incident Response"
-      identifier: "Security-incident-response"
-      Parent: infosec
-      weight: 10
-tags: ['Security', 'incident', 'response', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-06-08 00:55:46+06:00
+description: Security incident response
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Security-incident-response
+    name: Security Incident Response
+    weight: 799392
+tags:
+- Security
+- incident
+- response
+- InfoSec
+title: Security Incident Response
 ---
 
 

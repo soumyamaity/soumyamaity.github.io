@@ -1,16 +1,22 @@
 ---
-title: "Application security for testers"
-date: 2020-11-29T23:34:49+06:00
-description: "Application security for testers"
-menu:
-   sidebar:
-      name: "Application security for testers"
-      identifier: "Application-security-for-testers"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'for', 'testers', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-11-29 23:34:49+06:00
+description: Application security for testers
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-for-testers
+    name: Application security for testers
+    weight: 798871
+tags:
+- Application
+- security
+- for
+- testers
+- InfoSec
+title: Application security for testers
 ---
 
 

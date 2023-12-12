@@ -1,16 +1,20 @@
 ---
-title: "Security Engineering"
-date: 2022-12-06T15:41:24+06:00
-description: "Security engineering"
-menu:
-   sidebar:
-      name: "Security Engineering"
-      identifier: "Security-engineering"
-      Parent: infosec
-      weight: 10
-tags: ['Security', 'engineering', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-12-06 15:41:24+06:00
+description: Security engineering
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Security-engineering
+    name: Security Engineering
+    weight: 778794
+tags:
+- Security
+- engineering
+- InfoSec
+title: Security Engineering
 ---
 
 

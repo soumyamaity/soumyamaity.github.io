@@ -1,16 +1,21 @@
 ---
-title: "Cloud Application Security"
-date: 2021-06-13T15:12:36+06:00
-description: "Cloud application security"
-menu:
-   sidebar:
-      name: "Cloud Application Security"
-      identifier: "Cloud-application-security"
-      Parent: infosec
-      weight: 10
-tags: ['Cloud', 'application', 'security', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-06-13 15:12:36+06:00
+description: Cloud application security
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Cloud-application-security
+    name: Cloud Application Security
+    weight: 789387
+tags:
+- Cloud
+- application
+- security
+- InfoSec
+title: Cloud Application Security
 ---
 
 

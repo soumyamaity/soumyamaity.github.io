@@ -1,16 +1,20 @@
 ---
-title: "System Security"
-date: 2020-02-11T12:06:02+06:00
-description: "System security"
-menu:
-   sidebar:
-      name: "System Security"
-      identifier: "System-security"
-      Parent: infosec
-      weight: 10
-tags: ['System', 'security', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-02-11 12:06:02+06:00
+description: System security
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: System-security
+    name: System Security
+    weight: 799789
+tags:
+- System
+- security
+- InfoSec
+title: System Security
 ---
 
 

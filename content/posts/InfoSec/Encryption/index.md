@@ -1,16 +1,19 @@
 ---
-title: "Encryption: The Art of Keeping Secrets"
-date: 2019-01-22T23:02:01+06:00
-description: "Encryption"
-menu:
-   sidebar:
-      name: "Encryption: The Art of Keeping Secrets"
-      identifier: "Encryption"
-      Parent: infosec
-      weight: 10
-tags: ['Encryption', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-01-22 23:02:01+06:00
+description: Encryption
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Encryption
+    name: 'Encryption: The Art of Keeping Secrets'
+    weight: 809878
+tags:
+- Encryption
+- InfoSec
+title: 'Encryption: The Art of Keeping Secrets'
 ---
 
 

@@ -1,16 +1,20 @@
 ---
-title: "Risk Assessment"
-date: 2020-01-21T07:57:33+06:00
-description: "Risk assessment"
-menu:
-   sidebar:
-      name: "Risk Assessment"
-      identifier: "Risk-assessment"
-      Parent: infosec
-      weight: 10
-tags: ['Risk', 'assessment', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-01-21 07:57:33+06:00
+description: Risk assessment
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Risk-assessment
+    name: Risk Assessment
+    weight: 799879
+tags:
+- Risk
+- assessment
+- InfoSec
+title: Risk Assessment
 ---
 
 

@@ -1,16 +1,20 @@
 ---
-title: "Threat Modeling"
-date: 2019-03-19T06:01:45+06:00
-description: "Threat modeling"
-menu:
-   sidebar:
-      name: "Threat Modeling"
-      identifier: "Threat-modeling"
-      Parent: infosec
-      weight: 10
-tags: ['Threat', 'modeling', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-03-19 06:01:45+06:00
+description: Threat modeling
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Threat-modeling
+    name: Threat Modeling
+    weight: 809681
+tags:
+- Threat
+- modeling
+- InfoSec
+title: Threat Modeling
 ---
 
 

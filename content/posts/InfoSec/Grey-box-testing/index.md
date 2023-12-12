@@ -1,16 +1,21 @@
 ---
-title: "Grey Box Testing"
-date: 2022-05-12T20:51:23+06:00
-description: "Grey box testing"
-menu:
-   sidebar:
-      name: "Grey Box Testing"
-      identifier: "Grey-box-testing"
-      Parent: infosec
-      weight: 10
-tags: ['Grey', 'box', 'testing', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-05-12 20:51:23+06:00
+description: Grey box testing
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Grey-box-testing
+    name: Grey Box Testing
+    weight: 779488
+tags:
+- Grey
+- box
+- testing
+- InfoSec
+title: Grey Box Testing
 ---
 
 

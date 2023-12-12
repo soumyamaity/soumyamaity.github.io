@@ -1,16 +1,19 @@
 ---
-title: "Phishing: The Art of Deception"
-date: 2020-05-31T08:17:11+06:00
-description: "Phishing"
-menu:
-   sidebar:
-      name: "Phishing: The Art of Deception"
-      identifier: "Phishing"
-      Parent: infosec
-      weight: 10
-tags: ['Phishing', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-05-31 08:17:11+06:00
+description: Phishing
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Phishing
+    name: 'Phishing: The Art of Deception'
+    weight: 799469
+tags:
+- Phishing
+- InfoSec
+title: 'Phishing: The Art of Deception'
 ---
 
 

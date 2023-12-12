@@ -1,16 +1,21 @@
 ---
-title: "Application Security Monitoring"
-date: 2023-03-27T04:00:54+06:00
-description: "Application security monitoring"
-menu:
-   sidebar:
-      name: "Application Security Monitoring"
-      identifier: "Application-security-monitoring"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'monitoring', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2023-03-27 04:00:54+06:00
+description: Application security monitoring
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-monitoring
+    name: Application Security Monitoring
+    weight: 769673
+tags:
+- Application
+- security
+- monitoring
+- InfoSec
+title: Application Security Monitoring
 ---
 
 

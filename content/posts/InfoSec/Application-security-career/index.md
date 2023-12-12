@@ -1,16 +1,21 @@
 ---
-title: "Application Security Career"
-date: 2021-06-08T23:30:28+06:00
-description: "Application security career"
-menu:
-   sidebar:
-      name: "Application Security Career"
-      identifier: "Application-security-career"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'career', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-06-08 23:30:28+06:00
+description: Application security career
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-career
+    name: Application Security Career
+    weight: 789392
+tags:
+- Application
+- security
+- career
+- InfoSec
+title: Application Security Career
 ---
 
 

@@ -1,16 +1,21 @@
 ---
-title: "Zero Trust Security"
-date: 2019-03-27T00:00:13+06:00
-description: "Zero trust security_longer"
-menu:
-   sidebar:
-      name: "Zero Trust Security"
-      identifier: "Zero-trust-security_longer"
-      Parent: infosec
-      weight: 10
-tags: ['Zero', 'trust', 'security_longer', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-03-27 00:00:13+06:00
+description: Zero trust security_longer
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Zero-trust-security_longer
+    name: Zero Trust Security
+    weight: 809673
+tags:
+- Zero
+- trust
+- security_longer
+- InfoSec
+title: Zero Trust Security
 ---
 
 

@@ -1,16 +1,20 @@
 ---
-title: "Input Validation: The Key to Secure Applications"
-date: 2022-07-15T05:25:35+06:00
-description: "Input validation"
-menu:
-   sidebar:
-      name: "Input Validation: The Key to Secure Applications"
-      identifier: "Input-validation"
-      Parent: infosec
-      weight: 10
-tags: ['Input', 'validation', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-07-15 05:25:35+06:00
+description: Input validation
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Input-validation
+    name: 'Input Validation: The Key to Secure Applications'
+    weight: 779285
+tags:
+- Input
+- validation
+- InfoSec
+title: 'Input Validation: The Key to Secure Applications'
 ---
 
 

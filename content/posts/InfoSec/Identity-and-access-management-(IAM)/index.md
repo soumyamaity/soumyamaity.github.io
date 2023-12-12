@@ -1,16 +1,23 @@
 ---
-title: "Identity and Access Management (IAM): The Key to Securing Your Organization"
-date: 2022-07-22T19:30:10+06:00
-description: "Identity and access management (IAM)"
-menu:
-   sidebar:
-      name: "Identity and Access Management (IAM): The Key to Securing Your Organization"
-      identifier: "Identity-and-access-management-(IAM)"
-      Parent: infosec
-      weight: 10
-tags: ['Identity', 'and', 'access', 'management', '(IAM)', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-07-22 19:30:10+06:00
+description: Identity and access management (IAM)
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Identity-and-access-management-(IAM)
+    name: 'Identity and Access Management (IAM): The Key to Securing Your Organization'
+    weight: 779278
+tags:
+- Identity
+- and
+- access
+- management
+- (IAM)
+- InfoSec
+title: 'Identity and Access Management (IAM): The Key to Securing Your Organization'
 ---
 
 

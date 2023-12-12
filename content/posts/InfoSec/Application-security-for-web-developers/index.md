@@ -1,16 +1,23 @@
 ---
-title: "Application security for web developers"
-date: 2020-12-12T01:35:02+06:00
-description: "Application security for web developers"
-menu:
-   sidebar:
-      name: "Application security for web developers"
-      identifier: "Application-security-for-web-developers"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'for', 'web', 'developers', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-12-12 01:35:02+06:00
+description: Application security for web developers
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-for-web-developers
+    name: Application security for web developers
+    weight: 798788
+tags:
+- Application
+- security
+- for
+- web
+- developers
+- InfoSec
+title: Application security for web developers
 ---
 
 

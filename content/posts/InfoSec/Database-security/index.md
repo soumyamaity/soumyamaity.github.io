@@ -1,16 +1,20 @@
 ---
-title: "Database Security: Keeping Your Data Safe"
-date: 2022-08-30T18:36:38+06:00
-description: "Database security"
-menu:
-   sidebar:
-      name: "Database Security: Keeping Your Data Safe"
-      identifier: "Database-security"
-      Parent: infosec
-      weight: 10
-tags: ['Database', 'security', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-08-30 18:36:38+06:00
+description: Database security
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Database-security
+    name: 'Database Security: Keeping Your Data Safe'
+    weight: 779170
+tags:
+- Database
+- security
+- InfoSec
+title: 'Database Security: Keeping Your Data Safe'
 ---
 
 

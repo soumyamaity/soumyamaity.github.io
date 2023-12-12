@@ -1,16 +1,21 @@
 ---
-title: "In-memory data protection: A critical need in today's world"
-date: 2022-12-02T10:57:40+06:00
-description: "In-memory data protection"
-menu:
-   sidebar:
-      name: "In-memory data protection: A critical need in today's world"
-      identifier: "In-memory-data-protection"
-      Parent: infosec
-      weight: 10
-tags: ['In-memory', 'data', 'protection', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-12-02 10:57:40+06:00
+description: In-memory data protection
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: In-memory-data-protection
+    name: 'In-memory data protection: A critical need in today''s world'
+    weight: 778798
+tags:
+- In-memory
+- data
+- protection
+- InfoSec
+title: 'In-memory data protection: A critical need in today''s world'
 ---
 
 

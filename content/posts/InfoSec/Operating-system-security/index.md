@@ -1,16 +1,21 @@
 ---
-title: "Operating System Security"
-date: 2021-08-15T18:11:43+06:00
-description: "Operating system security"
-menu:
-   sidebar:
-      name: "Operating System Security"
-      identifier: "Operating-system-security"
-      Parent: infosec
-      weight: 10
-tags: ['Operating', 'system', 'security', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-08-15 18:11:43+06:00
+description: Operating system security
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Operating-system-security
+    name: Operating System Security
+    weight: 789185
+tags:
+- Operating
+- system
+- security
+- InfoSec
+title: Operating System Security
 ---
 
 

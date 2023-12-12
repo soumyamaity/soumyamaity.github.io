@@ -1,16 +1,21 @@
 ---
-title: "Application Security Culture"
-date: 2022-07-29T08:09:26+06:00
-description: "Application security culture"
-menu:
-   sidebar:
-      name: "Application Security Culture"
-      identifier: "Application-security-culture"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'culture', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-07-29 08:09:26+06:00
+description: Application security culture
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-culture
+    name: Application Security Culture
+    weight: 779271
+tags:
+- Application
+- security
+- culture
+- InfoSec
+title: Application Security Culture
 ---
 
 

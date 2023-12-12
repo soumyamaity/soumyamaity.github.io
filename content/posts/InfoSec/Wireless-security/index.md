@@ -1,16 +1,20 @@
 ---
-title: "Wireless Security"
-date: 2019-01-16T21:04:52+06:00
-description: "Wireless security"
-menu:
-   sidebar:
-      name: "Wireless Security"
-      identifier: "Wireless-security"
-      Parent: infosec
-      weight: 10
-tags: ['Wireless', 'security', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-01-16 21:04:52+06:00
+description: Wireless security
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Wireless-security
+    name: Wireless Security
+    weight: 809884
+tags:
+- Wireless
+- security
+- InfoSec
+title: Wireless Security
 ---
 
 

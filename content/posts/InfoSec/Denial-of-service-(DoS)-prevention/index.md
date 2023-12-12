@@ -1,16 +1,21 @@
 ---
-title: "Denial-of-service (DoS) Prevention"
-date: 2021-01-14T21:04:00+06:00
-description: "Denial-of-service (DoS) prevention"
-menu:
-   sidebar:
-      name: "Denial-of-service (DoS) Prevention"
-      identifier: "Denial-of-service-(DoS)-prevention"
-      Parent: infosec
-      weight: 10
-tags: ['Denial-of-service', '(DoS)', 'prevention', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-01-14 21:04:00+06:00
+description: Denial-of-service (DoS) prevention
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Denial-of-service-(DoS)-prevention
+    name: Denial-of-service (DoS) Prevention
+    weight: 789886
+tags:
+- Denial-of-service
+- (DoS)
+- prevention
+- InfoSec
+title: Denial-of-service (DoS) Prevention
 ---
 
 

@@ -1,16 +1,21 @@
 ---
-title: "Web Development Security"
-date: 2022-01-16T06:57:09+06:00
-description: "Web development security"
-menu:
-   sidebar:
-      name: "Web Development Security"
-      identifier: "Web-development-security"
-      Parent: infosec
-      weight: 10
-tags: ['Web', 'development', 'security', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-01-16 06:57:09+06:00
+description: Web development security
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Web-development-security
+    name: Web Development Security
+    weight: 779884
+tags:
+- Web
+- development
+- security
+- InfoSec
+title: Web Development Security
 ---
 
 

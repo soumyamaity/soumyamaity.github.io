@@ -1,16 +1,22 @@
 ---
-title: "Application security for managers"
-date: 2020-02-13T06:02:10+06:00
-description: "Application security for managers"
-menu:
-   sidebar:
-      name: "Application security for managers"
-      identifier: "Application-security-for-managers"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'for', 'managers', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-02-13 06:02:10+06:00
+description: Application security for managers
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-for-managers
+    name: Application security for managers
+    weight: 799787
+tags:
+- Application
+- security
+- for
+- managers
+- InfoSec
+title: Application security for managers
 ---
 
 

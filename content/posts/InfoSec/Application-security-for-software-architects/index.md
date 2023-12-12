@@ -1,16 +1,23 @@
 ---
-title: "Application security for software architects"
-date: 2022-09-24T22:50:07+06:00
-description: "Application security for software architects"
-menu:
-   sidebar:
-      name: "Application security for software architects"
-      identifier: "Application-security-for-software-architects"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'for', 'software', 'architects', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-09-24 22:50:07+06:00
+description: Application security for software architects
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-for-software-architects
+    name: Application security for software architects
+    weight: 779076
+tags:
+- Application
+- security
+- for
+- software
+- architects
+- InfoSec
+title: Application security for software architects
 ---
 
 

@@ -1,16 +1,19 @@
 ---
-title: "Ransomware: A growing threat"
-date: 2019-09-30T16:55:12+06:00
-description: "Ransomware"
-menu:
-   sidebar:
-      name: "Ransomware: A growing threat"
-      identifier: "Ransomware"
-      Parent: infosec
-      weight: 10
-tags: ['Ransomware', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-09-30 16:55:12+06:00
+description: Ransomware
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Ransomware
+    name: 'Ransomware: A growing threat'
+    weight: 809070
+tags:
+- Ransomware
+- InfoSec
+title: 'Ransomware: A growing threat'
 ---
 
 

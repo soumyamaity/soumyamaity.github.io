@@ -1,16 +1,20 @@
 ---
-title: "Application Firewalls: Your First Line of Defense"
-date: 2022-06-29T06:59:15+06:00
-description: "Application firewall"
-menu:
-   sidebar:
-      name: "Application Firewalls: Your First Line of Defense"
-      identifier: "Application-firewall"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'firewall', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-06-29 06:59:15+06:00
+description: Application firewall
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-firewall
+    name: 'Application Firewalls: Your First Line of Defense'
+    weight: 779371
+tags:
+- Application
+- firewall
+- InfoSec
+title: 'Application Firewalls: Your First Line of Defense'
 ---
 
 

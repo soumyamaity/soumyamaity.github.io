@@ -1,16 +1,20 @@
 ---
-title: "Security Auditing"
-date: 2020-07-08T21:57:25+06:00
-description: "Security auditing"
-menu:
-   sidebar:
-      name: "Security Auditing"
-      identifier: "Security-auditing"
-      Parent: infosec
-      weight: 10
-tags: ['Security', 'auditing', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-07-08 21:57:25+06:00
+description: Security auditing
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Security-auditing
+    name: Security Auditing
+    weight: 799292
+tags:
+- Security
+- auditing
+- InfoSec
+title: Security Auditing
 ---
 
 

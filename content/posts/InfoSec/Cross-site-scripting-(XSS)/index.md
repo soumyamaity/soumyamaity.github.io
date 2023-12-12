@@ -1,16 +1,21 @@
 ---
-title: "Cross-site Scripting (XSS)"
-date: 2020-06-06T21:32:54+06:00
-description: "Cross-site scripting (XSS)"
-menu:
-   sidebar:
-      name: "Cross-site Scripting (XSS)"
-      identifier: "Cross-site-scripting-(XSS)"
-      Parent: infosec
-      weight: 10
-tags: ['Cross-site', 'scripting', '(XSS)', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-06-06 21:32:54+06:00
+description: Cross-site scripting (XSS)
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Cross-site-scripting-(XSS)
+    name: Cross-site Scripting (XSS)
+    weight: 799394
+tags:
+- Cross-site
+- scripting
+- (XSS)
+- InfoSec
+title: Cross-site Scripting (XSS)
 ---
 
 

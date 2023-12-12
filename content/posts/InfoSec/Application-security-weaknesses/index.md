@@ -1,16 +1,21 @@
 ---
-title: "Application Security Weaknesses"
-date: 2021-10-27T14:34:14+06:00
-description: "Application security weaknesses"
-menu:
-   sidebar:
-      name: "Application Security Weaknesses"
-      identifier: "Application-security-weaknesses"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'weaknesses', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-10-27 14:34:14+06:00
+description: Application security weaknesses
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-weaknesses
+    name: Application Security Weaknesses
+    weight: 788973
+tags:
+- Application
+- security
+- weaknesses
+- InfoSec
+title: Application Security Weaknesses
 ---
 
 

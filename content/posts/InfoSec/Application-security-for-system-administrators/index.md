@@ -1,16 +1,23 @@
 ---
-title: "Application security for system administrators"
-date: 2023-03-07T03:53:53+06:00
-description: "Application security for system administrators"
-menu:
-   sidebar:
-      name: "Application security for system administrators"
-      identifier: "Application-security-for-system-administrators"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'for', 'system', 'administrators', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2023-03-07 03:53:53+06:00
+description: Application security for system administrators
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-for-system-administrators
+    name: Application security for system administrators
+    weight: 769693
+tags:
+- Application
+- security
+- for
+- system
+- administrators
+- InfoSec
+title: Application security for system administrators
 ---
 
 

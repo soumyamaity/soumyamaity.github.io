@@ -1,16 +1,21 @@
 ---
-title: "Application Security Training"
-date: 2019-09-21T01:58:03+06:00
-description: "Application security training"
-menu:
-   sidebar:
-      name: "Application Security Training"
-      identifier: "Application-security-training"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'training', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-09-21 01:58:03+06:00
+description: Application security training
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-training
+    name: Application Security Training
+    weight: 809079
+tags:
+- Application
+- security
+- training
+- InfoSec
+title: Application Security Training
 ---
 
 

@@ -1,16 +1,20 @@
 ---
-title: "Code Review: A Peer's Eye View"
-date: 2021-11-03T02:40:47+06:00
-description: "Code review"
-menu:
-   sidebar:
-      name: "Code Review: A Peer's Eye View"
-      identifier: "Code-review"
-      Parent: infosec
-      weight: 10
-tags: ['Code', 'review', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-11-03 02:40:47+06:00
+description: Code review
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Code-review
+    name: 'Code Review: A Peer''s Eye View'
+    weight: 788897
+tags:
+- Code
+- review
+- InfoSec
+title: 'Code Review: A Peer''s Eye View'
 ---
 
 

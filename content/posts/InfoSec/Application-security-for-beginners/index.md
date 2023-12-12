@@ -1,16 +1,22 @@
 ---
-title: "Application security for beginners"
-date: 2022-07-02T13:51:21+06:00
-description: "Application security for beginners"
-menu:
-   sidebar:
-      name: "Application security for beginners"
-      identifier: "Application-security-for-beginners"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'for', 'beginners', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-07-02 13:51:21+06:00
+description: Application security for beginners
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-for-beginners
+    name: Application security for beginners
+    weight: 779298
+tags:
+- Application
+- security
+- for
+- beginners
+- InfoSec
+title: Application security for beginners
 ---
 
 

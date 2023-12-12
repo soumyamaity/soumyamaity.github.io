@@ -1,16 +1,21 @@
 ---
-title: "Secure Coding Practices"
-date: 2019-08-06T15:05:08+06:00
-description: "Secure coding practices"
-menu:
-   sidebar:
-      name: "Secure Coding Practices"
-      identifier: "Secure-coding-practices"
-      Parent: infosec
-      weight: 10
-tags: ['Secure', 'coding', 'practices', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-08-06 15:05:08+06:00
+description: Secure coding practices
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Secure-coding-practices
+    name: Secure Coding Practices
+    weight: 809194
+tags:
+- Secure
+- coding
+- practices
+- InfoSec
+title: Secure Coding Practices
 ---
 
 

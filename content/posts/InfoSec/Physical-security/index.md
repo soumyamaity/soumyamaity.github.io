@@ -1,16 +1,20 @@
 ---
-title: "Physical Security"
-date: 2021-01-16T00:14:35+06:00
-description: "Physical security"
-menu:
-   sidebar:
-      name: "Physical Security"
-      identifier: "Physical-security"
-      Parent: infosec
-      weight: 10
-tags: ['Physical', 'security', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-01-16 00:14:35+06:00
+description: Physical security
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Physical-security
+    name: Physical Security
+    weight: 789884
+tags:
+- Physical
+- security
+- InfoSec
+title: Physical Security
 ---
 
 

@@ -1,16 +1,20 @@
 ---
-title: "Password Management: It's Not Just About Remembering Your Passwords"
-date: 2022-07-21T00:53:02+06:00
-description: "Password management"
-menu:
-   sidebar:
-      name: "Password Management: It's Not Just About Remembering Your Passwords"
-      identifier: "Password-management"
-      Parent: infosec
-      weight: 10
-tags: ['Password', 'management', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-07-21 00:53:02+06:00
+description: Password management
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Password-management
+    name: 'Password Management: It''s Not Just About Remembering Your Passwords'
+    weight: 779279
+tags:
+- Password
+- management
+- InfoSec
+title: 'Password Management: It''s Not Just About Remembering Your Passwords'
 ---
 
 

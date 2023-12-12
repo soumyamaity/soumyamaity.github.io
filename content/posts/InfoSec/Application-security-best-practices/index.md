@@ -1,16 +1,22 @@
 ---
-title: "Application Security Best Practices"
-date: 2019-07-11T14:56:32+06:00
-description: "Application security best practices"
-menu:
-   sidebar:
-      name: "Application Security Best Practices"
-      identifier: "Application-security-best-practices"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'best', 'practices', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-07-11 14:56:32+06:00
+description: Application security best practices
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-best-practices
+    name: Application Security Best Practices
+    weight: 809289
+tags:
+- Application
+- security
+- best
+- practices
+- InfoSec
+title: Application Security Best Practices
 ---
 
 

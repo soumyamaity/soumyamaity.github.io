@@ -1,16 +1,20 @@
 ---
-title: "Threat Intelligence"
-date: 2019-01-18T16:20:11+06:00
-description: "Threat intelligence"
-menu:
-   sidebar:
-      name: "Threat Intelligence"
-      identifier: "Threat-intelligence"
-      Parent: infosec
-      weight: 10
-tags: ['Threat', 'intelligence', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-01-18 16:20:11+06:00
+description: Threat intelligence
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Threat-intelligence
+    name: Threat Intelligence
+    weight: 809882
+tags:
+- Threat
+- intelligence
+- InfoSec
+title: Threat Intelligence
 ---
 
 

@@ -1,16 +1,21 @@
 ---
-title: "Network Security Architecture"
-date: 2022-02-19T18:27:52+06:00
-description: "Network security architecture"
-menu:
-   sidebar:
-      name: "Network Security Architecture"
-      identifier: "Network-security-architecture"
-      Parent: infosec
-      weight: 10
-tags: ['Network', 'security', 'architecture', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-02-19 18:27:52+06:00
+description: Network security architecture
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Network-security-architecture
+    name: Network Security Architecture
+    weight: 779781
+tags:
+- Network
+- security
+- architecture
+- InfoSec
+title: Network Security Architecture
 ---
 
 

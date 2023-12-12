@@ -1,16 +1,22 @@
 ---
-title: "Application security for executives"
-date: 2020-11-13T12:00:23+06:00
-description: "Application security for executives"
-menu:
-   sidebar:
-      name: "Application security for executives"
-      identifier: "Application-security-for-executives"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'for', 'executives', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-11-13 12:00:23+06:00
+description: Application security for executives
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-for-executives
+    name: Application security for executives
+    weight: 798887
+tags:
+- Application
+- security
+- for
+- executives
+- InfoSec
+title: Application security for executives
 ---
 
 

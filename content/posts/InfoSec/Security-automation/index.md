@@ -1,16 +1,20 @@
 ---
-title: "Security Automation"
-date: 2020-06-21T05:41:36+06:00
-description: "Security automation"
-menu:
-   sidebar:
-      name: "Security Automation"
-      identifier: "Security-automation"
-      Parent: infosec
-      weight: 10
-tags: ['Security', 'automation', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-06-21 05:41:36+06:00
+description: Security automation
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Security-automation
+    name: Security Automation
+    weight: 799379
+tags:
+- Security
+- automation
+- InfoSec
+title: Security Automation
 ---
 
 

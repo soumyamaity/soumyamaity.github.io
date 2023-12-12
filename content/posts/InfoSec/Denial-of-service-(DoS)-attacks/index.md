@@ -1,16 +1,21 @@
 ---
-title: "Denial-of-service (DoS) attacks: A threat to your website"
-date: 2020-07-28T17:33:33+06:00
-description: "Denial-of-service (DoS) attacks"
-menu:
-   sidebar:
-      name: "Denial-of-service (DoS) attacks: A threat to your website"
-      identifier: "Denial-of-service-(DoS)-attacks"
-      Parent: infosec
-      weight: 10
-tags: ['Denial-of-service', '(DoS)', 'attacks', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-07-28 17:33:33+06:00
+description: Denial-of-service (DoS) attacks
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Denial-of-service-(DoS)-attacks
+    name: 'Denial-of-service (DoS) attacks: A threat to your website'
+    weight: 799272
+tags:
+- Denial-of-service
+- (DoS)
+- attacks
+- InfoSec
+title: 'Denial-of-service (DoS) attacks: A threat to your website'
 ---
 
 

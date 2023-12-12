@@ -1,16 +1,23 @@
 ---
-title: "Static Application Security Testing (SAST): A Deep Dive"
-date: 2021-01-17T00:35:08+06:00
-description: "Static application security testing (SAST)"
-menu:
-   sidebar:
-      name: "Static Application Security Testing (SAST): A Deep Dive"
-      identifier: "Static-application-security-testing-(SAST)"
-      Parent: infosec
-      weight: 10
-tags: ['Static', 'application', 'security', 'testing', '(SAST)', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-01-17 00:35:08+06:00
+description: Static application security testing (SAST)
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Static-application-security-testing-(SAST)
+    name: 'Static Application Security Testing (SAST): A Deep Dive'
+    weight: 789883
+tags:
+- Static
+- application
+- security
+- testing
+- (SAST)
+- InfoSec
+title: 'Static Application Security Testing (SAST): A Deep Dive'
 ---
 
 

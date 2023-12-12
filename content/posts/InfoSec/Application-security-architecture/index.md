@@ -1,16 +1,21 @@
 ---
-title: "Application Security Architecture"
-date: 2022-09-18T06:34:13+06:00
-description: "Application security architecture"
-menu:
-   sidebar:
-      name: "Application Security Architecture"
-      identifier: "Application-security-architecture"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'architecture', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-09-18 06:34:13+06:00
+description: Application security architecture
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-architecture
+    name: Application Security Architecture
+    weight: 779082
+tags:
+- Application
+- security
+- architecture
+- InfoSec
+title: Application Security Architecture
 ---
 
 

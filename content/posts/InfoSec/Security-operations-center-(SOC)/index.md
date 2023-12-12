@@ -1,16 +1,22 @@
 ---
-title: "Security Operations Center (SOC)"
-date: 2021-08-17T20:43:02+06:00
-description: "Security operations center (SOC)"
-menu:
-   sidebar:
-      name: "Security Operations Center (SOC)"
-      identifier: "Security-operations-center-(SOC)"
-      Parent: infosec
-      weight: 10
-tags: ['Security', 'operations', 'center', '(SOC)', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-08-17 20:43:02+06:00
+description: Security operations center (SOC)
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Security-operations-center-(SOC)
+    name: Security Operations Center (SOC)
+    weight: 789183
+tags:
+- Security
+- operations
+- center
+- (SOC)
+- InfoSec
+title: Security Operations Center (SOC)
 ---
 
 

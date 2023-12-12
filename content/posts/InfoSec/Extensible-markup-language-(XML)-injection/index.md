@@ -1,16 +1,23 @@
 ---
-title: "XML Injection: A Dangerous Vulnerability"
-date: 2022-03-27T10:13:55+06:00
-description: "Extensible markup language (XML) injection"
-menu:
-   sidebar:
-      name: "XML Injection: A Dangerous Vulnerability"
-      identifier: "Extensible-markup-language-(XML)-injection"
-      Parent: infosec
-      weight: 10
-tags: ['Extensible', 'markup', 'language', '(XML)', 'injection', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-03-27 10:13:55+06:00
+description: Extensible markup language (XML) injection
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Extensible-markup-language-(XML)-injection
+    name: 'XML Injection: A Dangerous Vulnerability'
+    weight: 779673
+tags:
+- Extensible
+- markup
+- language
+- (XML)
+- injection
+- InfoSec
+title: 'XML Injection: A Dangerous Vulnerability'
 ---
 
 

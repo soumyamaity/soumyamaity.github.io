@@ -1,16 +1,21 @@
 ---
-title: "Mobile Application Security: A Critical Need in Today's World"
-date: 2022-03-03T05:08:56+06:00
-description: "Mobile application security"
-menu:
-   sidebar:
-      name: "Mobile Application Security: A Critical Need in Today's World"
-      identifier: "Mobile-application-security"
-      Parent: infosec
-      weight: 10
-tags: ['Mobile', 'application', 'security', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-03-03 05:08:56+06:00
+description: Mobile application security
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Mobile-application-security
+    name: 'Mobile Application Security: A Critical Need in Today''s World'
+    weight: 779697
+tags:
+- Mobile
+- application
+- security
+- InfoSec
+title: 'Mobile Application Security: A Critical Need in Today''s World'
 ---
 
 

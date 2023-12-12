@@ -1,16 +1,20 @@
 ---
-title: "Side-Channel Attacks: Sneaking a peek at secrets"
-date: 2019-02-16T15:49:43+06:00
-description: "Side-channel attacks"
-menu:
-   sidebar:
-      name: "Side-Channel Attacks: Sneaking a peek at secrets"
-      identifier: "Side-channel-attacks"
-      Parent: infosec
-      weight: 10
-tags: ['Side-channel', 'attacks', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-02-16 15:49:43+06:00
+description: Side-channel attacks
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Side-channel-attacks
+    name: 'Side-Channel Attacks: Sneaking a peek at secrets'
+    weight: 809784
+tags:
+- Side-channel
+- attacks
+- InfoSec
+title: 'Side-Channel Attacks: Sneaking a peek at secrets'
 ---
 
 

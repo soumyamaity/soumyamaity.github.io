@@ -1,16 +1,22 @@
 ---
-title: "Application security for developers"
-date: 2019-01-17T14:44:30+06:00
-description: "Application security for developers"
-menu:
-   sidebar:
-      name: "Application security for developers"
-      identifier: "Application-security-for-developers"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'for', 'developers', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-01-17 14:44:30+06:00
+description: Application security for developers
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-for-developers
+    name: Application security for developers
+    weight: 809883
+tags:
+- Application
+- security
+- for
+- developers
+- InfoSec
+title: Application security for developers
 ---
 
 

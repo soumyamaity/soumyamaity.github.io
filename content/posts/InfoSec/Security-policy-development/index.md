@@ -1,16 +1,21 @@
 ---
-title: "Security Policy Development"
-date: 2021-03-09T17:45:16+06:00
-description: "Security policy development"
-menu:
-   sidebar:
-      name: "Security Policy Development"
-      identifier: "Security-policy-development"
-      Parent: infosec
-      weight: 10
-tags: ['Security', 'policy', 'development', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-03-09 17:45:16+06:00
+description: Security policy development
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Security-policy-development
+    name: Security Policy Development
+    weight: 789691
+tags:
+- Security
+- policy
+- development
+- InfoSec
+title: Security Policy Development
 ---
 
 

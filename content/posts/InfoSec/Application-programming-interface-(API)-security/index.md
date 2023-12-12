@@ -1,16 +1,23 @@
 ---
-title: "API Security: Protecting Your Data"
-date: 2021-08-13T12:10:19+06:00
-description: "Application programming interface (API) security"
-menu:
-   sidebar:
-      name: "API Security: Protecting Your Data"
-      identifier: "Application-programming-interface-(API)-security"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'programming', 'interface', '(API)', 'security', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-08-13 12:10:19+06:00
+description: Application programming interface (API) security
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-programming-interface-(API)-security
+    name: 'API Security: Protecting Your Data'
+    weight: 789187
+tags:
+- Application
+- programming
+- interface
+- (API)
+- security
+- InfoSec
+title: 'API Security: Protecting Your Data'
 ---
 
 

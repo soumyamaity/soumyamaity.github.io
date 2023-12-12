@@ -1,16 +1,24 @@
 ---
-title: "Open Web Application Security Project (OWASP)"
-date: 2022-07-13T15:35:37+06:00
-description: "Open web application security project (OWASP)"
-menu:
-   sidebar:
-      name: "Open Web Application Security Project (OWASP)"
-      identifier: "Open-web-application-security-project-(OWASP)"
-      Parent: infosec
-      weight: 10
-tags: ['Open', 'web', 'application', 'security', 'project', '(OWASP)', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-07-13 15:35:37+06:00
+description: Open web application security project (OWASP)
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Open-web-application-security-project-(OWASP)
+    name: Open Web Application Security Project (OWASP)
+    weight: 779287
+tags:
+- Open
+- web
+- application
+- security
+- project
+- (OWASP)
+- InfoSec
+title: Open Web Application Security Project (OWASP)
 ---
 
 

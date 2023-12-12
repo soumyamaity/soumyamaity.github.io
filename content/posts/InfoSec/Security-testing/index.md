@@ -1,16 +1,20 @@
 ---
-title: "Security Testing"
-date: 2022-11-15T23:25:32+06:00
-description: "Security testing"
-menu:
-   sidebar:
-      name: "Security Testing"
-      identifier: "Security-testing"
-      Parent: infosec
-      weight: 10
-tags: ['Security', 'testing', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-11-15 23:25:32+06:00
+description: Security testing
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Security-testing
+    name: Security Testing
+    weight: 778885
+tags:
+- Security
+- testing
+- InfoSec
+title: Security Testing
 ---
 
 

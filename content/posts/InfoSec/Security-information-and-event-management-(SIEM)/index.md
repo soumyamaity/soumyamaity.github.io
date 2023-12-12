@@ -1,16 +1,24 @@
 ---
-title: "Security Information and Event Management (SIEM)"
-date: 2023-04-03T21:46:54+06:00
-description: "Security information and event management (SIEM)"
-menu:
-   sidebar:
-      name: "Security Information and Event Management (SIEM)"
-      identifier: "0Security-information-and-event-management-(SIEM)"
-      Parent: infosec
-      weight: 100
-tags: ['Security', 'information', 'and', 'event', 'management', '(SIEM)', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2023-04-03 21:46:54+06:00
+description: Security information and event management (SIEM)
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: 0Security-information-and-event-management-(SIEM)
+    name: Security Information and Event Management (SIEM)
+    weight: 769597
+tags:
+- Security
+- information
+- and
+- event
+- management
+- (SIEM)
+- InfoSec
+title: Security Information and Event Management (SIEM)
 ---
 
 

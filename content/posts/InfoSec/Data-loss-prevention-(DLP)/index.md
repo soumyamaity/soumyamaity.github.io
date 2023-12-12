@@ -1,16 +1,22 @@
 ---
-title: "Data Loss Prevention (DLP): Protecting Your Data"
-date: 2021-09-20T07:32:50+06:00
-description: "Data loss prevention (DLP)"
-menu:
-   sidebar:
-      name: "Data Loss Prevention (DLP): Protecting Your Data"
-      identifier: "Data-loss-prevention-(DLP)"
-      Parent: infosec
-      weight: 10
-tags: ['Data', 'loss', 'prevention', '(DLP)', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-09-20 07:32:50+06:00
+description: Data loss prevention (DLP)
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Data-loss-prevention-(DLP)
+    name: 'Data Loss Prevention (DLP): Protecting Your Data'
+    weight: 789080
+tags:
+- Data
+- loss
+- prevention
+- (DLP)
+- InfoSec
+title: 'Data Loss Prevention (DLP): Protecting Your Data'
 ---
 
 

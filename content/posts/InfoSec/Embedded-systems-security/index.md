@@ -1,16 +1,21 @@
 ---
-title: "Embedded Systems Security"
-date: 2023-02-08T18:48:27+06:00
-description: "Embedded systems security"
-menu:
-   sidebar:
-      name: "Embedded Systems Security"
-      identifier: "Embedded-systems-security"
-      Parent: infosec
-      weight: 10
-tags: ['Embedded', 'systems', 'security', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2023-02-08 18:48:27+06:00
+description: Embedded systems security
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Embedded-systems-security
+    name: Embedded Systems Security
+    weight: 769792
+tags:
+- Embedded
+- systems
+- security
+- InfoSec
+title: Embedded Systems Security
 ---
 
 

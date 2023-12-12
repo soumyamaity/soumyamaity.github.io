@@ -1,16 +1,22 @@
 ---
-title: "Attack Surface Management: Protecting Your Organization from Attack"
-date: 2021-01-07T00:17:09+06:00
-description: "Attack surface management (ASM)"
-menu:
-   sidebar:
-      name: "Attack Surface Management: Protecting Your Organization from Attack"
-      identifier: "Attack-surface-management-(ASM)"
-      Parent: infosec
-      weight: 10
-tags: ['Attack', 'surface', 'management', '(ASM)', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-01-07 00:17:09+06:00
+description: Attack surface management (ASM)
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Attack-surface-management-(ASM)
+    name: 'Attack Surface Management: Protecting Your Organization from Attack'
+    weight: 789893
+tags:
+- Attack
+- surface
+- management
+- (ASM)
+- InfoSec
+title: 'Attack Surface Management: Protecting Your Organization from Attack'
 ---
 
 

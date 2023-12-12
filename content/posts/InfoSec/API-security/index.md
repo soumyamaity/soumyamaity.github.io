@@ -1,16 +1,20 @@
 ---
-title: ""
-date: 2022-10-13T00:39:27+06:00
-description: "API security"
-menu:
-   sidebar:
-      name: ""
-      identifier: "API-security"
-      Parent: infosec
-      weight: 100
-tags: ['API', 'security', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-10-13 00:39:27+06:00
+description: API security
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: API-security
+    name: ''
+    weight: 778987
+tags:
+- API
+- security
+- InfoSec
+title: API security
 ---
 
 

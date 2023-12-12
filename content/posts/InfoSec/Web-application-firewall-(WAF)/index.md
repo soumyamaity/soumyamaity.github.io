@@ -1,16 +1,22 @@
 ---
-title: "Web Application Firewall (WAF)"
-date: 2022-01-18T22:01:42+06:00
-description: "Web application firewall (WAF)"
-menu:
-   sidebar:
-      name: "Web Application Firewall (WAF)"
-      identifier: "Web-application-firewall-(WAF)"
-      Parent: infosec
-      weight: 10
-tags: ['Web', 'application', 'firewall', '(WAF)', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-01-18 22:01:42+06:00
+description: Web application firewall (WAF)
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Web-application-firewall-(WAF)
+    name: Web Application Firewall (WAF)
+    weight: 779882
+tags:
+- Web
+- application
+- firewall
+- (WAF)
+- InfoSec
+title: Web Application Firewall (WAF)
 ---
 
 

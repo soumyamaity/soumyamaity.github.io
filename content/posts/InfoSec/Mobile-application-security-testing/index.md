@@ -1,16 +1,22 @@
 ---
-title: "Mobile Application Security Testing"
-date: 2020-08-02T07:26:23+06:00
-description: "Mobile application security testing"
-menu:
-   sidebar:
-      name: "Mobile Application Security Testing"
-      identifier: "Mobile-application-security-testing"
-      Parent: infosec
-      weight: 10
-tags: ['Mobile', 'application', 'security', 'testing', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2020-08-02 07:26:23+06:00
+description: Mobile application security testing
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Mobile-application-security-testing
+    name: Mobile Application Security Testing
+    weight: 799198
+tags:
+- Mobile
+- application
+- security
+- testing
+- InfoSec
+title: Mobile Application Security Testing
 ---
 
 

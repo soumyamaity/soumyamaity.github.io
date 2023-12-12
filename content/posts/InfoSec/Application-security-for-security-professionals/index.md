@@ -1,16 +1,23 @@
 ---
-title: "Application security for security professionals"
-date: 2019-09-23T07:14:56+06:00
-description: "Application security for security professionals"
-menu:
-   sidebar:
-      name: "Application security for security professionals"
-      identifier: "Application-security-for-security-professionals"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'for', 'security', 'professionals', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2019-09-23 07:14:56+06:00
+description: Application security for security professionals
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-for-security-professionals
+    name: Application security for security professionals
+    weight: 809077
+tags:
+- Application
+- security
+- for
+- security
+- professionals
+- InfoSec
+title: Application security for security professionals
 ---
 
 

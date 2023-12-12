@@ -1,16 +1,21 @@
 ---
-title: "Application Security Education"
-date: 2022-07-08T02:55:08+06:00
-description: "Application security education"
-menu:
-   sidebar:
-      name: "Application Security Education"
-      identifier: "Application-security-education"
-      Parent: infosec
-      weight: 10
-tags: ['Application', 'security', 'education', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2022-07-08 02:55:08+06:00
+description: Application security education
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Application-security-education
+    name: Application Security Education
+    weight: 779292
+tags:
+- Application
+- security
+- education
+- InfoSec
+title: Application Security Education
 ---
 
 

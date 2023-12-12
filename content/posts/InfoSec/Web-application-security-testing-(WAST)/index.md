@@ -1,16 +1,23 @@
 ---
-title: "Web Application Security Testing (WAST)"
-date: 2021-02-14T18:33:25+06:00
-description: "Web application security testing (WAST)"
-menu:
-   sidebar:
-      name: "Web Application Security Testing (WAST)"
-      identifier: "Web-application-security-testing-(WAST)"
-      Parent: infosec
-      weight: 10
-tags: ['Web', 'application', 'security', 'testing', '(WAST)', 'InfoSec']
-categories: ["Infosec"]
+categories:
+- Infosec
+date: 2021-02-14 18:33:25+06:00
+description: Web application security testing (WAST)
 hero: 000001.jpg
+menu:
+  sidebar:
+    Parent: infosec
+    identifier: Web-application-security-testing-(WAST)
+    name: Web Application Security Testing (WAST)
+    weight: 789786
+tags:
+- Web
+- application
+- security
+- testing
+- (WAST)
+- InfoSec
+title: Web Application Security Testing (WAST)
 ---
 
 
