@@ -72,7 +72,7 @@ badges:
 - type: certification
   name: Certificate of Cloud Security Knowledge v.4
   url: "https://www.credly.com/earner/earned/badge/4ebced2b-9867-47ba-9f46-c0299b51ad42"
-  badge: "assets/images/site/CCSK-v4-Credly-badge.png?raw=true"
+  badge: "assets/images/site/CCSK-v4-Credly-badge.png"
 
 - type: certification
   name: Certfied Ethical Hacker v.9
