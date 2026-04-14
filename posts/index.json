@@ -1,0 +1,1166 @@
+[
+  {
+    "slug": "Security-information-and-event-management-(SIEM)",
+    "title": "Security Information and Event Management (SIEM)",
+    "date": "2023-04-03",
+    "description": "Security information and event management (SIEM)",
+    "tags": [
+      "Security",
+      "information",
+      "and",
+      "event",
+      "management",
+      "(SIEM)",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-monitoring",
+    "title": "Application Security Monitoring",
+    "date": "2023-03-27",
+    "description": "Application security monitoring",
+    "tags": [
+      "Application",
+      "security",
+      "monitoring",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-for-system-administrators",
+    "title": "Application security for system administrators",
+    "date": "2023-03-07",
+    "description": "Application security for system administrators",
+    "tags": [
+      "Application",
+      "security",
+      "for",
+      "system",
+      "administrators",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Embedded-systems-security",
+    "title": "Embedded Systems Security",
+    "date": "2023-02-08",
+    "description": "Embedded systems security",
+    "tags": [
+      "Embedded",
+      "systems",
+      "security",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Software-composition-analysis-(SCA)",
+    "title": "Software Composition Analysis (SCA): A Deep Dive",
+    "date": "2023-01-20",
+    "description": "Software composition analysis (SCA)",
+    "tags": [
+      "Software",
+      "composition",
+      "analysis",
+      "(SCA)",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-governance",
+    "title": "Application Security Governance",
+    "date": "2023-01-13",
+    "description": "Application security governance",
+    "tags": [
+      "Application",
+      "security",
+      "governance",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Malware",
+    "title": "Malware: The Malicious Software That Threatens Your Devices",
+    "date": "2022-12-13",
+    "description": "Malware",
+    "tags": [
+      "Malware",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Security-engineering",
+    "title": "Security Engineering",
+    "date": "2022-12-06",
+    "description": "Security engineering",
+    "tags": [
+      "Security",
+      "engineering",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "In-memory-data-protection",
+    "title": "In-memory data protection: A critical need in today''s world",
+    "date": "2022-12-02",
+    "description": "In-memory data protection",
+    "tags": [
+      "In-memory",
+      "data",
+      "protection",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Privilege-escalation",
+    "title": "Privilege escalation: What it is and how to prevent it",
+    "date": "2022-11-29",
+    "description": "Privilege escalation",
+    "tags": [
+      "Privilege",
+      "escalation",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Security-testing",
+    "title": "Security Testing",
+    "date": "2022-11-15",
+    "description": "Security testing",
+    "tags": [
+      "Security",
+      "testing",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "API-security",
+    "title": "API security",
+    "date": "2022-10-13",
+    "description": "API security",
+    "tags": [
+      "API",
+      "security",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Vulnerability-assessment",
+    "title": "Vulnerability Assessment",
+    "date": "2022-10-01",
+    "description": "Vulnerability assessment",
+    "tags": [
+      "Vulnerability",
+      "assessment",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-for-software-architects",
+    "title": "Application security for software architects",
+    "date": "2022-09-24",
+    "description": "Application security for software architects",
+    "tags": [
+      "Application",
+      "security",
+      "for",
+      "software",
+      "architects",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-architecture",
+    "title": "Application Security Architecture",
+    "date": "2022-09-18",
+    "description": "Application security architecture",
+    "tags": [
+      "Application",
+      "security",
+      "architecture",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Vulnerability-management",
+    "title": "Vulnerability Management",
+    "date": "2022-09-07",
+    "description": "Vulnerability management",
+    "tags": [
+      "Vulnerability",
+      "management",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Database-security",
+    "title": "Database Security: Keeping Your Data Safe",
+    "date": "2022-08-30",
+    "description": "Database security",
+    "tags": [
+      "Database",
+      "security",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-culture",
+    "title": "Application Security Culture",
+    "date": "2022-07-29",
+    "description": "Application security culture",
+    "tags": [
+      "Application",
+      "security",
+      "culture",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Identity-and-access-management-(IAM)",
+    "title": "Identity and Access Management (IAM): The Key to Securing Your Organization",
+    "date": "2022-07-22",
+    "description": "Identity and access management (IAM)",
+    "tags": [
+      "Identity",
+      "and",
+      "access",
+      "management",
+      "(IAM)",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Password-management",
+    "title": "Password Management: It''s Not Just About Remembering Your Passwords",
+    "date": "2022-07-21",
+    "description": "Password management",
+    "tags": [
+      "Password",
+      "management",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Input-validation",
+    "title": "Input Validation: The Key to Secure Applications",
+    "date": "2022-07-15",
+    "description": "Input validation",
+    "tags": [
+      "Input",
+      "validation",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Open-web-application-security-project-(OWASP)",
+    "title": "Open Web Application Security Project (OWASP)",
+    "date": "2022-07-13",
+    "description": "Open web application security project (OWASP)",
+    "tags": [
+      "Open",
+      "web",
+      "application",
+      "security",
+      "project",
+      "(OWASP)",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-education",
+    "title": "Application Security Education",
+    "date": "2022-07-08",
+    "description": "Application security education",
+    "tags": [
+      "Application",
+      "security",
+      "education",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-for-beginners",
+    "title": "Application security for beginners",
+    "date": "2022-07-02",
+    "description": "Application security for beginners",
+    "tags": [
+      "Application",
+      "security",
+      "for",
+      "beginners",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-firewall",
+    "title": "Application Firewalls: Your First Line of Defense",
+    "date": "2022-06-29",
+    "description": "Application firewall",
+    "tags": [
+      "Application",
+      "firewall",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Grey-box-testing",
+    "title": "Grey Box Testing",
+    "date": "2022-05-12",
+    "description": "Grey box testing",
+    "tags": [
+      "Grey",
+      "box",
+      "testing",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Cloud-security",
+    "title": "Cloud Security: Protecting Your Data in the Cloud",
+    "date": "2022-04-30",
+    "description": "Cloud security",
+    "tags": [
+      "Cloud",
+      "security",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Extensible-markup-language-(XML)-injection",
+    "title": "XML Injection: A Dangerous Vulnerability",
+    "date": "2022-03-27",
+    "description": "Extensible markup language (XML) injection",
+    "tags": [
+      "Extensible",
+      "markup",
+      "language",
+      "(XML)",
+      "injection",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Zero-day-attacks",
+    "title": "Zero-Day Attacks",
+    "date": "2022-03-13",
+    "description": "Zero-day attacks",
+    "tags": [
+      "Zero-day",
+      "attacks",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Mobile-application-security",
+    "title": "Mobile Application Security: A Critical Need in Today''s World",
+    "date": "2022-03-03",
+    "description": "Mobile application security",
+    "tags": [
+      "Mobile",
+      "application",
+      "security",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-for-everyone",
+    "title": "Application security for everyone",
+    "date": "2022-02-25",
+    "description": "Application security for everyone",
+    "tags": [
+      "Application",
+      "security",
+      "for",
+      "everyone",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Network-security-architecture",
+    "title": "Network Security Architecture",
+    "date": "2022-02-19",
+    "description": "Network security architecture",
+    "tags": [
+      "Network",
+      "security",
+      "architecture",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Web-application-firewall-(WAF)",
+    "title": "Web Application Firewall (WAF)",
+    "date": "2022-01-18",
+    "description": "Web application firewall (WAF)",
+    "tags": [
+      "Web",
+      "application",
+      "firewall",
+      "(WAF)",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Web-development-security",
+    "title": "Web Development Security",
+    "date": "2022-01-16",
+    "description": "Web development security",
+    "tags": [
+      "Web",
+      "development",
+      "security",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-compliance",
+    "title": "Application Security Compliance",
+    "date": "2022-01-07",
+    "description": "Application security compliance",
+    "tags": [
+      "Application",
+      "security",
+      "compliance",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Zero-day-exploit-prevention",
+    "title": "Zero-day exploit prevention",
+    "date": "2022-01-02",
+    "description": "Zero-day exploit prevention",
+    "tags": [
+      "Zero-day",
+      "exploit",
+      "prevention",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Wireless-security-architecture",
+    "title": "Wireless Security Architecture",
+    "date": "2021-12-26",
+    "description": "Wireless security architecture",
+    "tags": [
+      "Wireless",
+      "security",
+      "architecture",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Code-review",
+    "title": "Code Review: A Peer''s Eye View",
+    "date": "2021-11-03",
+    "description": "Code review",
+    "tags": [
+      "Code",
+      "review",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-weaknesses",
+    "title": "Application Security Weaknesses",
+    "date": "2021-10-27",
+    "description": "Application security weaknesses",
+    "tags": [
+      "Application",
+      "security",
+      "weaknesses",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Integration-testing",
+    "title": "Integration Testing: The Next Step in Software Testing",
+    "date": "2021-10-06",
+    "description": "Integration testing",
+    "tags": [
+      "Integration",
+      "testing",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Data-loss-prevention-(DLP)",
+    "title": "Data Loss Prevention (DLP): Protecting Your Data",
+    "date": "2021-09-20",
+    "description": "Data loss prevention (DLP)",
+    "tags": [
+      "Data",
+      "loss",
+      "prevention",
+      "(DLP)",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Security-training",
+    "title": "Security Training",
+    "date": "2021-09-02",
+    "description": "Security training",
+    "tags": [
+      "Security",
+      "training",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Object-oriented-programming-(OOP)-injection",
+    "title": "Object-oriented programming (OOP) injection: A threat to your code",
+    "date": "2021-08-31",
+    "description": "Object-oriented programming (OOP) injection",
+    "tags": [
+      "Object-oriented",
+      "programming",
+      "(OOP)",
+      "injection",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Security-operations-center-(SOC)",
+    "title": "Security Operations Center (SOC)",
+    "date": "2021-08-17",
+    "description": "Security operations center (SOC)",
+    "tags": [
+      "Security",
+      "operations",
+      "center",
+      "(SOC)",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Operating-system-security",
+    "title": "Operating System Security",
+    "date": "2021-08-15",
+    "description": "Operating system security",
+    "tags": [
+      "Operating",
+      "system",
+      "security",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-programming-interface-(API)-security",
+    "title": "API Security: Protecting Your Data",
+    "date": "2021-08-13",
+    "description": "Application programming interface (API) security",
+    "tags": [
+      "Application",
+      "programming",
+      "interface",
+      "(API)",
+      "security",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Software-development-life-cycle-(SDLC)-security",
+    "title": "Software Development Life Cycle (SDLC) Security",
+    "date": "2021-08-13",
+    "description": "Software development life cycle (SDLC) security",
+    "tags": [
+      "Software",
+      "development",
+      "life",
+      "cycle",
+      "(SDLC)",
+      "security",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Cloud-application-security",
+    "title": "Cloud Application Security",
+    "date": "2021-06-13",
+    "description": "Cloud application security",
+    "tags": [
+      "Cloud",
+      "application",
+      "security",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-career",
+    "title": "Application Security Career",
+    "date": "2021-06-08",
+    "description": "Application security career",
+    "tags": [
+      "Application",
+      "security",
+      "career",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Enterprise-application-security",
+    "title": "Enterprise Application Security",
+    "date": "2021-05-20",
+    "description": "Enterprise application security",
+    "tags": [
+      "Enterprise",
+      "application",
+      "security",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-testing-(AST)",
+    "title": "Application Security Testing: Protecting Your Apps",
+    "date": "2021-05-04",
+    "description": "Application security testing (AST)",
+    "tags": [
+      "Application",
+      "security",
+      "testing",
+      "(AST)",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "DevSecOps_longer",
+    "title": "DevSecOps: The Future of Security",
+    "date": "2021-04-01",
+    "description": "DevSecOps_longer",
+    "tags": [
+      "DevSecOps_longer",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Security-policy-development",
+    "title": "Security Policy Development",
+    "date": "2021-03-09",
+    "description": "Security policy development",
+    "tags": [
+      "Security",
+      "policy",
+      "development",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-for-IT-professionals",
+    "title": "Application security for IT professionals",
+    "date": "2021-03-02",
+    "description": "Application security for IT professionals",
+    "tags": [
+      "Application",
+      "security",
+      "for",
+      "IT",
+      "professionals",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Web-application-security-testing-(WAST)",
+    "title": "Web Application Security Testing (WAST)",
+    "date": "2021-02-14",
+    "description": "Web application security testing (WAST)",
+    "tags": [
+      "Web",
+      "application",
+      "security",
+      "testing",
+      "(WAST)",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Static-application-security-testing-(SAST)",
+    "title": "Static Application Security Testing (SAST): A Deep Dive",
+    "date": "2021-01-17",
+    "description": "Static application security testing (SAST)",
+    "tags": [
+      "Static",
+      "application",
+      "security",
+      "testing",
+      "(SAST)",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Physical-security",
+    "title": "Physical Security",
+    "date": "2021-01-16",
+    "description": "Physical security",
+    "tags": [
+      "Physical",
+      "security",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Denial-of-service-(DoS)-prevention",
+    "title": "Denial-of-service (DoS) Prevention",
+    "date": "2021-01-14",
+    "description": "Denial-of-service (DoS) prevention",
+    "tags": [
+      "Denial-of-service",
+      "(DoS)",
+      "prevention",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Attack-surface-management-(ASM)",
+    "title": "Attack Surface Management: Protecting Your Organization from Attack",
+    "date": "2021-01-07",
+    "description": "Attack surface management (ASM)",
+    "tags": [
+      "Attack",
+      "surface",
+      "management",
+      "(ASM)",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-for-web-developers",
+    "title": "Application security for web developers",
+    "date": "2020-12-12",
+    "description": "Application security for web developers",
+    "tags": [
+      "Application",
+      "security",
+      "for",
+      "web",
+      "developers",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-for-testers",
+    "title": "Application security for testers",
+    "date": "2020-11-29",
+    "description": "Application security for testers",
+    "tags": [
+      "Application",
+      "security",
+      "for",
+      "testers",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-for-executives",
+    "title": "Application security for executives",
+    "date": "2020-11-13",
+    "description": "Application security for executives",
+    "tags": [
+      "Application",
+      "security",
+      "for",
+      "executives",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Fuzz-testing",
+    "title": "Fuzz Testing: A Black-Box Testing Technique",
+    "date": "2020-11-02",
+    "description": "Fuzz testing",
+    "tags": [
+      "Fuzz",
+      "testing",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Code-analysis",
+    "title": "Code Analysis: Finding and Fixing Security Vulnerabilities",
+    "date": "2020-09-20",
+    "description": "Code analysis",
+    "tags": [
+      "Code",
+      "analysis",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Mobile-application-security-testing",
+    "title": "Mobile Application Security Testing",
+    "date": "2020-08-02",
+    "description": "Mobile application security testing",
+    "tags": [
+      "Mobile",
+      "application",
+      "security",
+      "testing",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Denial-of-service-(DoS)-attacks",
+    "title": "Denial-of-service (DoS) attacks: A threat to your website",
+    "date": "2020-07-28",
+    "description": "Denial-of-service (DoS) attacks",
+    "tags": [
+      "Denial-of-service",
+      "(DoS)",
+      "attacks",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Security-auditing",
+    "title": "Security Auditing",
+    "date": "2020-07-08",
+    "description": "Security auditing",
+    "tags": [
+      "Security",
+      "auditing",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Security-automation",
+    "title": "Security Automation",
+    "date": "2020-06-21",
+    "description": "Security automation",
+    "tags": [
+      "Security",
+      "automation",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Security-incident-response",
+    "title": "Security Incident Response",
+    "date": "2020-06-08",
+    "description": "Security incident response",
+    "tags": [
+      "Security",
+      "incident",
+      "response",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Cross-site-scripting-(XSS)",
+    "title": "Cross-site Scripting (XSS)",
+    "date": "2020-06-06",
+    "description": "Cross-site scripting (XSS)",
+    "tags": [
+      "Cross-site",
+      "scripting",
+      "(XSS)",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Phishing",
+    "title": "Phishing: The Art of Deception",
+    "date": "2020-05-31",
+    "description": "Phishing",
+    "tags": [
+      "Phishing",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-metrics",
+    "title": "Application Security Metrics",
+    "date": "2020-05-04",
+    "description": "Application security metrics",
+    "tags": [
+      "Application",
+      "security",
+      "metrics",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Web-application-security",
+    "title": "Web Application Security",
+    "date": "2020-04-30",
+    "description": "Web application security",
+    "tags": [
+      "Web",
+      "application",
+      "security",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Runtime-application-self-protection-(RASP)",
+    "title": "Runtime Application Self-Protection (RASP)",
+    "date": "2020-03-30",
+    "description": "Runtime application self-protection (RASP)",
+    "tags": [
+      "Runtime",
+      "application",
+      "self-protection",
+      "(RASP)",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-for-managers",
+    "title": "Application security for managers",
+    "date": "2020-02-13",
+    "description": "Application security for managers",
+    "tags": [
+      "Application",
+      "security",
+      "for",
+      "managers",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "System-security",
+    "title": "System Security",
+    "date": "2020-02-11",
+    "description": "System security",
+    "tags": [
+      "System",
+      "security",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Risk-assessment",
+    "title": "Risk Assessment",
+    "date": "2020-01-21",
+    "description": "Risk assessment",
+    "tags": [
+      "Risk",
+      "assessment",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Dynamic-application-security-testing-(DAST)",
+    "title": "Dynamic Application Security Testing (DAST): A Hands-On Approach",
+    "date": "2019-12-27",
+    "description": "Dynamic application security testing (DAST)",
+    "tags": [
+      "Dynamic",
+      "application",
+      "security",
+      "testing",
+      "(DAST)",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-vulnerability-management",
+    "title": "Application Security Vulnerability Management",
+    "date": "2019-10-26",
+    "description": "Application security vulnerability management",
+    "tags": [
+      "Application",
+      "security",
+      "vulnerability",
+      "management",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-for-software-engineers",
+    "title": "Application security for software engineers",
+    "date": "2019-10-11",
+    "description": "Application security for software engineers",
+    "tags": [
+      "Application",
+      "security",
+      "for",
+      "software",
+      "engineers",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Ransomware",
+    "title": "Ransomware: A growing threat",
+    "date": "2019-09-30",
+    "description": "Ransomware",
+    "tags": [
+      "Ransomware",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-for-security-professionals",
+    "title": "Application security for security professionals",
+    "date": "2019-09-23",
+    "description": "Application security for security professionals",
+    "tags": [
+      "Application",
+      "security",
+      "for",
+      "security",
+      "professionals",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-training",
+    "title": "Application Security Training",
+    "date": "2019-09-21",
+    "description": "Application security training",
+    "tags": [
+      "Application",
+      "security",
+      "training",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Container-security",
+    "title": "Container Security: Keeping Your Applications Safe",
+    "date": "2019-09-18",
+    "description": "Container security",
+    "tags": [
+      "Container",
+      "security",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Security-awareness-training",
+    "title": "Security Awareness Training",
+    "date": "2019-09-03",
+    "description": "Security awareness training",
+    "tags": [
+      "Security",
+      "awareness",
+      "training",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-awareness",
+    "title": "Application Security Awareness",
+    "date": "2019-08-09",
+    "description": "Application security awareness",
+    "tags": [
+      "Application",
+      "security",
+      "awareness",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Secure-coding-practices",
+    "title": "Secure Coding Practices",
+    "date": "2019-08-06",
+    "description": "Secure coding practices",
+    "tags": [
+      "Secure",
+      "coding",
+      "practices",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-best-practices",
+    "title": "Application Security Best Practices",
+    "date": "2019-07-11",
+    "description": "Application security best practices",
+    "tags": [
+      "Application",
+      "security",
+      "best",
+      "practices",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Zero-trust-security_longer",
+    "title": "Zero Trust Security",
+    "date": "2019-03-27",
+    "description": "Zero trust security_longer",
+    "tags": [
+      "Zero",
+      "trust",
+      "security_longer",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Threat-modeling",
+    "title": "Threat Modeling",
+    "date": "2019-03-19",
+    "description": "Threat modeling",
+    "tags": [
+      "Threat",
+      "modeling",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Browser-security",
+    "title": "Browser Security",
+    "date": "2019-03-08",
+    "description": "Browser security",
+    "tags": [
+      "Browser",
+      "security",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Side-channel-attacks",
+    "title": "Side-Channel Attacks: Sneaking a peek at secrets",
+    "date": "2019-02-16",
+    "description": "Side-channel attacks",
+    "tags": [
+      "Side-channel",
+      "attacks",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Encryption",
+    "title": "Encryption: The Art of Keeping Secrets",
+    "date": "2019-01-22",
+    "description": "Encryption",
+    "tags": [
+      "Encryption",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Threat-intelligence",
+    "title": "Threat Intelligence",
+    "date": "2019-01-18",
+    "description": "Threat intelligence",
+    "tags": [
+      "Threat",
+      "intelligence",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Application-security-for-developers",
+    "title": "Application security for developers",
+    "date": "2019-01-17",
+    "description": "Application security for developers",
+    "tags": [
+      "Application",
+      "security",
+      "for",
+      "developers",
+      "InfoSec"
+    ]
+  },
+  {
+    "slug": "Wireless-security",
+    "title": "Wireless Security",
+    "date": "2019-01-16",
+    "description": "Wireless security",
+    "tags": [
+      "Wireless",
+      "security",
+      "InfoSec"
+    ]
+  }
+]
