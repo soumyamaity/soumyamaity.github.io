@@ -6,6 +6,8 @@ posts_dir = os.path.join(os.path.dirname(__file__), "posts")
 manifest = []
 
 for md_path in sorted(glob.glob(os.path.join(posts_dir, "*.md"))):
+    if os.path.basename(md_path) == "upcoming.md":
+        continue
     slug = os.path.splitext(os.path.basename(md_path))[0]
     with open(md_path, "r", encoding="utf-8") as f:
         content = f.read()
@@ -46,11 +48,9 @@ for md_path in sorted(glob.glob(os.path.join(posts_dir, "*.md"))):
                     in_tags = False
             continue
         if in_tags:
-            if stripped.startswith("- "):
-                tags.append(stripped[2:].strip().strip('"').strip("'"))
-            elif stripped.startswith("-"):
-                tags.append(stripped[1:].strip().strip('"').strip("'"))
-            else:
+            if re.match(r"^\s*-\s+", stripped):
+                tags.append(re.sub(r"^\s*-\s+", "", stripped).strip().strip('"').strip("'"))
+            elif stripped and not stripped.startswith("#"):
                 in_tags = False
 
     # Normalize date to YYYY-MM-DD
