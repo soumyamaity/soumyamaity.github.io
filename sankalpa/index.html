@@ -192,6 +192,90 @@
   .gantt-legend span { display:flex; align-items:center; gap:5px; }
   .gantt-legend .sw { width:14px; height:14px; border-radius:4px; }
   .gantt-nodate { padding:10px 12px; font-size:11px; color:#B08; background:#FDF0F0; border-top:1px solid #F0D8D8; }
+
+  /* ════════ RESPONSIVE: TABLET ════════ */
+  @media(max-width:1024px){
+    .hdr-stats { gap:12px; }
+    .gantt-label, .gantt-header .gantt-label { width:180px; min-width:180px; }
+  }
+
+  /* ════════ RESPONSIVE: MOBILE (≤680px) ════════ */
+  @media(max-width:680px){
+    .hdr-inner { padding:12px 12px; }
+    .hdr-top { gap:8px; }
+    .hdr-title h1 { font-size:17px; }
+    .hdr-title p { font-size:9px; }
+    /* stats: show count strip compactly, hide ring to save space */
+    .hdr-stats { gap:14px; order:3; width:100%; justify-content:space-around; background:rgba(0,0,0,.12); border-radius:10px; padding:8px 4px; }
+    .progress-ring { width:42px; height:42px; }
+    .progress-ring svg { width:42px; height:42px; }
+    .stat-val { font-size:16px; }
+    /* action buttons row */
+    .hdr-actions { order:2; width:100%; display:flex; gap:8px; align-items:center; justify-content:space-between; }
+    .btn-add { flex:1; padding:11px 14px; font-size:14px; }
+    .btn-logout { padding:9px 12px; }
+    .user-chip span { display:none; } /* keep avatar, drop name */
+
+    .tabs { margin-top:10px; }
+    .tab { flex:1; text-align:center; padding:11px 8px; font-size:13px; }
+
+    .filters { margin-top:10px; gap:8px; }
+    /* horizontal-scroll pill rows so they don't wrap into tall stacks */
+    .filter-row { flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch; padding-bottom:3px; scrollbar-width:none; }
+    .filter-row::-webkit-scrollbar { display:none; }
+    .filter-row input[type=text] { min-width:0; }
+    .flabel { position:sticky; left:0; flex-shrink:0; }
+    .pill { flex-shrink:0; padding:6px 12px; font-size:12px; } /* bigger tap targets */
+
+    #board { padding:14px 10px; gap:12px; grid-template-columns:1fr; }
+    .column { min-height:auto; }
+    .col-add { width:30px; height:30px; font-size:18px; line-height:28px; } /* tap target */
+    .card { padding:14px 13px 11px; }
+    .card-menu-btn { font-size:22px; padding:0 6px; } /* easier to tap */
+    .card-title { font-size:14.5px; }
+    .card-note { font-size:12.5px; }
+    .badge { font-size:11px; padding:3px 8px; }
+
+    /* modal becomes near-fullscreen sheet */
+    .modal-bg { padding:0; align-items:flex-end; }
+    .modal-box { max-width:100%; max-height:96vh; border-radius:18px 18px 0 0; }
+    .modal-hdr { border-radius:18px 18px 0 0; padding:16px 18px; }
+    .modal-body { padding:16px; gap:16px; }
+    .form-row2 { gap:12px; }
+    .form-row2 > div { min-width:100%; } /* stack the two-up rows */
+    .form-input { font-size:16px; padding:11px 12px; } /* 16px stops iOS zoom-on-focus */
+    .ms-search { font-size:16px; padding:11px 12px; }
+    .chip { padding:7px 13px; font-size:12.5px; } /* tap targets */
+    .chip-add { padding:7px 12px; }
+    .modal-foot { position:sticky; bottom:0; background:#FFFDF9; padding:12px 0 4px; margin:0 -2px; }
+    .btn-cancel, .btn-save { padding:12px 18px; font-size:14px; flex:1; }
+
+    .attach-tile, .attach-add, .attach-file { width:64px; height:64px; }
+    .attach-tile img { width:64px; height:64px; }
+
+    /* Gantt: keep usable, lock label column narrower, hint horizontal scroll */
+    #gantt-view { padding:14px 8px; }
+    .gantt-toolbar { gap:7px; }
+    .gantt-toolbar strong { font-size:14px; width:100%; }
+    .gantt-toolbar button { flex:1; padding:9px 10px; font-size:12px; }
+    .gantt-label, .gantt-header .gantt-label { width:130px; min-width:130px; padding:8px 8px; font-size:11.5px; }
+    .gantt-bar { font-size:9px; }
+    .gantt-handle { width:14px; }
+    .gantt-wrap { -webkit-overflow-scrolling:touch; }
+    .gantt-legend { font-size:10px; gap:10px; }
+  }
+
+  /* very small phones */
+  @media(max-width:380px){
+    .hdr-stats { gap:8px; }
+    .stat-lbl { font-size:8px; }
+    .gantt-label, .gantt-header .gantt-label { width:108px; min-width:108px; }
+  }
+
+  /* respect notches / safe areas */
+  @supports(padding:env(safe-area-inset-bottom)){
+    .modal-foot { padding-bottom:calc(4px + env(safe-area-inset-bottom)); }
+  }
 </style>
 </head>
 <body>
@@ -229,7 +313,7 @@
             <div class="pct" id="prog-pct">0%</div>
           </div>
         </div>
-        <div style="display:flex;gap:10px;align-items:center">
+        <div class="hdr-actions" style="display:flex;gap:10px;align-items:center">
           <span class="sync-badge" id="sync-badge">●</span>
           <div class="user-chip" id="user-chip"></div>
           <button class="btn-add" onclick="openModal()">+ Add Task</button>
@@ -240,6 +324,9 @@
       <div class="tabs">
         <button class="tab active" id="tab-board" onclick="switchTab('board')">📋 Board</button>
         <button class="tab" id="tab-gantt" onclick="switchTab('gantt')">📊 Gantt Chart</button>
+        <span style="flex:1"></span>
+        <button class="tab" onclick="exportMarkdown()" title="Download all tasks as a Markdown file">⬇️ Export .md</button>
+        <button class="tab" onclick="showApiHelp()" title="How to use the JavaScript API">⚙️ API</button>
       </div>
 
       <div class="filters" id="filters-block">
@@ -251,6 +338,7 @@
         </div>
         <div class="filter-row"><span class="flabel">ROOM</span><span id="room-filters"></span></div>
         <div class="filter-row"><span class="flabel">CATEGORY</span><span id="cat-filters"></span></div>
+        <div class="filter-row"><span class="flabel">PERSON</span><span id="assignee-filters"></span></div>
         <div class="filter-row"><span class="flabel">PRIORITY</span><span id="prio-filters"></span></div>
       </div>
     </div>
@@ -269,15 +357,18 @@
       <div><label class="form-label">Notes</label><textarea class="form-input" id="f-note" rows="3" placeholder="Measurements, vendor, links, amounts…" style="resize:vertical"></textarea></div>
 
       <div class="form-row2">
-        <div><label class="form-label">Started On</label><input type="date" class="form-input" id="f-start"/></div>
-        <div><label class="form-label">Deadline</label><input type="date" class="form-input" id="f-deadline"/></div>
+        <div><label class="form-label">Started On</label><input type="date" class="form-input" id="f-start" oninput="onDateFieldChange('start')"/></div>
+        <div><label class="form-label">Deadline</label><input type="date" class="form-input" id="f-deadline" oninput="onDateFieldChange('deadline')"/></div>
+        <div><label class="form-label">Days Required</label><input type="number" min="1" class="form-input" id="f-days" placeholder="e.g. 5" oninput="onDateFieldChange('days')"/></div>
       </div>
+      <div style="font-size:11px;color:#A89A85;margin-top:-6px">Set any two of Start / Deadline / Days — the third fills in automatically.</div>
 
       <div class="form-row2">
         <div><label class="form-label">Column</label><div class="chip-row" id="f-col"></div></div>
         <div><label class="form-label">Priority</label><div class="chip-row" id="f-prio"></div></div>
       </div>
 
+      <div><label class="form-label">Assigned To (multi-select)</label><div class="chip-row" id="f-assignee"></div></div>
       <div><label class="form-label">Rooms (multi-select)</label><div class="chip-row" id="f-room"></div></div>
       <div><label class="form-label">Category (multi-select)</label><div class="chip-row" id="f-cat"></div></div>
 
@@ -336,12 +427,27 @@ const COLUMNS = [
 const ROOMS = ["General","Kitchen","Dining Room","Bathroom","Master Bedroom","Guest Room","Couple's Room","Temple Room","Drawing Room","Balcony"];
 const ROOM_ICON = { General:"📋", Kitchen:"🍳", "Dining Room":"🍽️", Bathroom:"🚿", "Master Bedroom":"🛏️", "Guest Room":"🛌", "Couple's Room":"💑", "Temple Room":"🪔", "Drawing Room":"🛋️", Balcony:"🌿" };
 const DEFAULT_CATS = ["Civil","Tiles","Kitchen","Carpentry","Electrical","Sankalpa","Plumbing","Sourcing","Pooja","Shifting","General","Miscellaneous","Online"];
+const DEFAULT_PEOPLE = ["Soumya","Dona","Nihar","Mala","Shuchi","Gourab"];
 const PRIO = ["Low","Medium","High","Urgent"];
 const PRIO_COLOR = { Low:"#6B9E6B", Medium:"#C4993A", High:"#CC6633", Urgent:"#CC2222" };
 const PRIO_RANK  = { Low:0, Medium:1, High:2, Urgent:3 };
 const CAT_COLOR = {}; // assigned dynamically
 const CAT_PALETTE = ["#5A2D82","#1A5C3A","#8B1A1A","#2C4A6E","#7A5C00","#964B00","#0B6E6E","#9B2D6E","#46603A","#6E4B1A","#3A3A6E","#7A3A3A","#2E6E4A"];
 function catColor(cat){ if(!CAT_COLOR[cat]){ const idx=Object.keys(CAT_COLOR).length % CAT_PALETTE.length; CAT_COLOR[cat]=CAT_PALETTE[idx]; } return CAT_COLOR[cat]; }
+
+/* RAG status by timeline adherence */
+const RAG = { green:"#1A8A3A", amber:"#E0A020", red:"#CC2222", none:"#C4B49A" };
+function ragStatus(c){
+  if(c.col==="done") return "green";
+  if(!c.deadline) return "none";
+  const today=Math.floor(Date.now()/86400000);
+  const dl=Math.floor(new Date(c.deadline+"T00:00:00").getTime()/86400000);
+  const diff=dl-today;
+  if(diff<0) return "red";        // overdue
+  if(diff<=3) return "amber";     // due within 3 days
+  return "green";                 // comfortably ahead
+}
+function ragLabel(s){ return {green:"On track",amber:"Due soon",red:"Overdue",none:"No deadline"}[s]; }
 
 const SEED = [
   { col:"todo",       title:"Bathroom & kitchen fittings — decide",        rooms:["Bathroom","Kitchen"], cats:["Plumbing","Sourcing"], prio:"Urgent", note:"Jaquar quote coming. Florentine Prime/Ornamix Prime shortlisted. ~Rs.25k per bathroom at 25% disc." },
@@ -378,14 +484,15 @@ const SEED = [
 
 /* ── state ── */
 let app, db, auth, provider, storage;
-let cards = {}, customCats = [], editId = null, dragId = null;
-let fRoom = "All", fCat = "All", fPrio = "All";
+let cards = {}, customCats = [], customPeople = [], editId = null, dragId = null;
+let fRoom = "All", fCat = "All", fPrio = "All", fAssignee = "All";
 let currentTab = "board", currentUser = null, seeded = false;
 // form working state
-let F = { col:"todo", prio:"Medium", rooms:[], cats:[], pre:[], post:[], attachments:[], start:"", deadline:"" };
+let F = { col:"todo", prio:"Medium", rooms:[], cats:[], assignees:[], pre:[], post:[], attachments:[], start:"", deadline:"", days:"" };
 
 const $ = id => document.getElementById(id);
 function allCats(){ return [...DEFAULT_CATS, ...customCats.filter(c=>!DEFAULT_CATS.includes(c))]; }
+function allPeople(){ return [...DEFAULT_PEOPLE, ...customPeople.filter(p=>!DEFAULT_PEOPLE.includes(p))]; }
 
 /* ── init firebase ── */
 try {
@@ -422,15 +529,18 @@ function startFirestore(){
     snap.docChanges().forEach(ch=>{ if(ch.type==="removed") delete cards[ch.doc.id]; else cards[ch.doc.id]={id:ch.doc.id,...ch.doc.data()}; });
     if(!seeded && Object.keys(cards).length===0){ seeded=true; seedData(); return; }
     seeded=true;
-    // collect custom categories from existing cards
-    Object.values(cards).forEach(c=> (c.cats||[]).forEach(cat=>{ if(!DEFAULT_CATS.includes(cat)&&!customCats.includes(cat)) customCats.push(cat); }));
+    // collect custom categories & people from existing cards
+    Object.values(cards).forEach(c=>{
+      (c.cats||[]).forEach(cat=>{ if(!DEFAULT_CATS.includes(cat)&&!customCats.includes(cat)) customCats.push(cat); });
+      (c.assignees||[]).forEach(p=>{ if(!DEFAULT_PEOPLE.includes(p)&&!customPeople.includes(p)) customPeople.push(p); });
+    });
     rerenderCurrent(); updateStats(); $("sync-badge").style.color="#1A5C3A";
   }, err=>{ console.error(err); $("sync-badge").style.color="#CC2222"; showToast("DB error: check Firestore rules", true); });
 
   window._dbSet = async (id,data)=>{ try{ await setDoc(doc(db,"kanban_cards",id),{...data,updatedAt:serverTimestamp()}); showToast("Saved ✓"); }catch(e){ console.error(e); showToast("Save failed ✗",true);} };
   window._dbDel = async (id)=>{ try{ await deleteDoc(doc(db,"kanban_cards",id)); }catch(e){ console.error(e);} };
 }
-async function seedData(){ const now=Date.now(); for(let i=0;i<SEED.length;i++){ const c={...SEED[i],id:"seed_"+i,ts:now-i*60000,rooms:SEED[i].rooms||[],cats:SEED[i].cats||[],pre:[],post:[],attachments:[],start:"",deadline:""}; await window._dbSet("seed_"+i,c);} }
+async function seedData(){ const now=Date.now(); for(let i=0;i<SEED.length;i++){ const c={...SEED[i],id:"seed_"+i,ts:now-i*60000,rooms:SEED[i].rooms||[],cats:SEED[i].cats||[],assignees:SEED[i].assignees||[],pre:[],post:[],attachments:[],start:SEED[i].start||"",deadline:SEED[i].deadline||"",days:SEED[i].days||""}; await window._dbSet("seed_"+i,c);} }
 
 /* ── migration helper: normalise old single room/cat to arrays ── */
 function norm(c){
@@ -438,9 +548,11 @@ function norm(c){
     id:c.id, title:c.title||"", note:c.note||"", col:c.col||"todo", prio:c.prio||"Medium",
     rooms: c.rooms || (c.room?[c.room]:[]),
     cats:  c.cats  || (c.category?[c.category]:[]),
+    assignees: c.assignees || [],
     pre:   c.pre || [], post: c.post || [],
     attachments: c.attachments || [],
     start: c.start || "", deadline: c.deadline || "",
+    days: (c.days!==undefined && c.days!==null) ? c.days : "",
     ts: c.ts || Date.now()
   };
 }
@@ -461,7 +573,7 @@ function rerenderCurrent(){ if(currentTab==="board") render(); else renderGantt(
 function getVisible(){
   const q=($("search")?.value||"").toLowerCase(); const s=$("sort")?.value||"newest";
   return Object.values(cards).map(norm)
-    .filter(c=> (fRoom==="All"||(c.rooms||[]).includes(fRoom)) && (fCat==="All"||(c.cats||[]).includes(fCat)) && (fPrio==="All"||c.prio===fPrio) && (!q||c.title.toLowerCase().includes(q)||(c.note||"").toLowerCase().includes(q)))
+    .filter(c=> (fRoom==="All"||(c.rooms||[]).includes(fRoom)) && (fCat==="All"||(c.cats||[]).includes(fCat)) && (fAssignee==="All"||(c.assignees||[]).includes(fAssignee)) && (fPrio==="All"||c.prio===fPrio) && (!q||c.title.toLowerCase().includes(q)||(c.note||"").toLowerCase().includes(q)))
     .sort((a,b)=> s==="newest"?b.ts-a.ts : s==="oldest"?a.ts-b.ts : s==="deadline"?((a.deadline||"9999")<(b.deadline||"9999")?-1:1) : s==="room"?((a.rooms[0]||"").localeCompare(b.rooms[0]||"")) : (PRIO_RANK[b.prio]||0)-(PRIO_RANK[a.prio]||0));
 }
 window.render = function render(){
@@ -488,14 +600,20 @@ function dateBadge(c){
 function buildCard(card,accent){
   const div=document.createElement("div"); div.className="card"; div.style.setProperty("--col-accent",accent); div.draggable=true; div.dataset.id=card.id;
   const pc=PRIO_COLOR[card.prio]||"#999", date=new Date(card.ts).toLocaleDateString("en-IN",{day:"numeric",month:"short"}), long=(card.note||"").length>80;
+  const rag=ragStatus(card);
   const roomBadges=(card.rooms||[]).map(r=>'<span class="badge badge-room">'+(ROOM_ICON[r]||"📋")+' '+esc(r)+'</span>').join("");
   const catBadges=(card.cats||[]).map(c=>'<span class="badge badge-cat" style="background:'+catColor(c)+'22;color:'+catColor(c)+'">'+esc(c)+'</span>').join("");
+  const assignBadges=(card.assignees||[]).map(p=>'<span class="badge" style="background:#E8EEF5;color:#2C4A6E">👤 '+esc(p)+'</span>').join("");
+  const daysBadge=card.days?'<span class="badge" style="background:#EFEAE2;color:#6E4B1A">⏳ '+card.days+'d</span>':'';
   const depCount=(card.pre||[]).length+(card.post||[]).length;
   const depBadge=depCount?'<span class="badge badge-link">🔗 '+depCount+'</span>':'';
   const atts=(card.attachments||[]);
   const thumbs = atts.length? '<div class="card-thumbs">'+atts.slice(0,4).map(a=> a.type&&a.type.startsWith("image")?'<img src="'+a.url+'" alt=""/>':'<div class="attach-file" style="width:34px;height:34px;font-size:7px">📄</div>').join("")+(atts.length>4?'<span style="font-size:10px;color:#999;align-self:center">+'+(atts.length-4)+'</span>':'')+'</div>':'';
-  div.innerHTML='<div class="card-top"><div class="card-title">'+esc(card.title)+'</div><button class="card-menu-btn" onclick="toggleMenu(event,\''+card.id+'\')">⋯</button></div>'+
-    '<div class="card-badges">'+roomBadges+catBadges+'<span class="badge" style="background:'+pc+'22;color:'+pc+';border:1px solid '+pc+'55">'+card.prio+'</span>'+dateBadge(card)+depBadge+'</div>'+
+  const ragDot='<span title="'+ragLabel(rag)+'" style="display:inline-block;width:10px;height:10px;border-radius:50%;background:'+RAG[rag]+';margin-right:6px;flex-shrink:0;vertical-align:middle"></span>';
+  // RAG-colored left edge for non-done tasks with a deadline
+  if(rag!=="none") div.style.borderLeftColor=RAG[rag];
+  div.innerHTML='<div class="card-top"><div class="card-title">'+ragDot+esc(card.title)+'</div><button class="card-menu-btn" onclick="toggleMenu(event,\''+card.id+'\')">⋯</button></div>'+
+    '<div class="card-badges">'+roomBadges+catBadges+assignBadges+'<span class="badge" style="background:'+pc+'22;color:'+pc+';border:1px solid '+pc+'55">'+card.prio+'</span>'+dateBadge(card)+daysBadge+depBadge+'</div>'+
     (card.note?'<div class="card-note clamped" id="note-'+card.id+'">'+esc(card.note)+'</div>'+(long?'<button class="card-more" style="color:'+accent+'" onclick="toggleNote(\''+card.id+'\',this)">show more ▼</button>':''):'')+
     thumbs+
     '<div class="card-foot"><span class="card-date">'+date+'</span>'+(atts.length?'<span class="card-attach">📎 '+atts.length+'</span>':'')+'</div>';
@@ -525,12 +643,13 @@ window.openModal=(col,id)=>{
   F = {
     col: card?.col||col||"todo", prio: card?.prio||"Medium",
     rooms:[...(card?.rooms||[])], cats:[...(card?.cats||[])],
+    assignees:[...(card?.assignees||[])],
     pre:[...(card?.pre||[])], post:[...(card?.post||[])],
     attachments:[...(card?.attachments||[])],
-    start: card?.start||"", deadline: card?.deadline||""
+    start: card?.start||"", deadline: card?.deadline||"", days: card?.days??""
   };
   $("f-title").value=card?.title||""; $("f-note").value=card?.note||"";
-  $("f-start").value=F.start; $("f-deadline").value=F.deadline;
+  $("f-start").value=F.start; $("f-deadline").value=F.deadline; $("f-days").value=F.days;
   $("modal-title").textContent=id?"Edit Task":"New Task";
   $("upload-bar").textContent="";
   renderModalChips();
@@ -539,26 +658,44 @@ window.openModal=(col,id)=>{
   $("modal").style.display="flex"; $("f-title").focus();
 };
 function renderModalChips(){
-  // column
-  buildChips("f-col", COLUMNS.map(c=>({id:c.id,label:c.emoji+" "+c.label,accent:c.accent})), [F.col], v=>{F.col=v;renderModalChips();}, false);
-  // priority
-  buildChips("f-prio", PRIO.map(p=>({id:p,label:p,accent:PRIO_COLOR[p]})), [F.prio], v=>{F.prio=v;renderModalChips();}, false);
-  // rooms multi
-  buildChips("f-room", ROOMS.map(r=>({id:r,label:ROOM_ICON[r]+" "+r})), F.rooms, v=>{ toggleArr(F.rooms,v); renderModalChips(); }, true);
-  // categories multi + add new
-  buildChips("f-cat", allCats().map(c=>({id:c,label:c,accent:catColor(c)})), F.cats, v=>{ toggleArr(F.cats,v); renderModalChips(); }, true, true);
+  buildChips("f-col", COLUMNS.map(c=>({id:c.id,label:c.emoji+" "+c.label,accent:c.accent})), [F.col], v=>{F.col=v;renderModalChips();});
+  buildChips("f-prio", PRIO.map(p=>({id:p,label:p,accent:PRIO_COLOR[p]})), [F.prio], v=>{F.prio=v;renderModalChips();});
+  buildChips("f-assignee", allPeople().map(p=>({id:p,label:"👤 "+p})), F.assignees, v=>{ toggleArr(F.assignees,v); renderModalChips(); }, {label:"person name", arr:()=>F.assignees, pool:()=>customPeople, defaults:DEFAULT_PEOPLE});
+  buildChips("f-room", ROOMS.map(r=>({id:r,label:ROOM_ICON[r]+" "+r})), F.rooms, v=>{ toggleArr(F.rooms,v); renderModalChips(); });
+  buildChips("f-cat", allCats().map(c=>({id:c,label:c,accent:catColor(c)})), F.cats, v=>{ toggleArr(F.cats,v); renderModalChips(); }, {label:"category name", arr:()=>F.cats, pool:()=>customCats, defaults:DEFAULT_CATS});
 }
 function toggleArr(arr,v){ const i=arr.indexOf(v); if(i>=0)arr.splice(i,1); else arr.push(v); }
-function buildChips(cid,items,activeArr,onChange,multi,withAdd){
+function buildChips(cid,items,activeArr,onChange,addOpt){
   const el=$(cid); el.innerHTML="";
   items.forEach(it=>{ const b=document.createElement("button"); const on=activeArr.includes(it.id);
     b.className="chip"+(on?" active":""); b.textContent=it.label; b.type="button";
     if(on&&it.accent){b.style.borderColor=it.accent;b.style.background=it.accent+"22";b.style.color=it.accent;}
     b.onclick=()=>onChange(it.id); el.appendChild(b); });
-  if(withAdd){ const a=document.createElement("button"); a.className="chip-add"; a.textContent="+ Add"; a.type="button";
-    a.onclick=()=>{ const name=(prompt("New category name:")||"").trim(); if(name){ if(!allCats().includes(name)) customCats.push(name); if(!F.cats.includes(name)) F.cats.push(name); renderModalChips(); } };
+  if(addOpt){ const a=document.createElement("button"); a.className="chip-add"; a.textContent="+ Add"; a.type="button";
+    a.onclick=()=>{ const name=(prompt("New "+addOpt.label+":")||"").trim(); if(name){ const pool=addOpt.pool(); if(!addOpt.defaults.includes(name)&&!pool.includes(name)) pool.push(name); const arr=addOpt.arr(); if(!arr.includes(name)) arr.push(name); renderModalChips(); } };
     el.appendChild(a); }
 }
+
+/* ── Days ⇄ Deadline ⇄ Start auto-calculation ── */
+function dnum(d){ return d? Math.floor(new Date(d+"T00:00:00").getTime()/86400000) : null; }
+function dstr(n){ return new Date(n*86400000).toISOString().slice(0,10); }
+window.onDateFieldChange = (which)=>{
+  const start=$("f-start").value, deadline=$("f-deadline").value, days=$("f-days").value;
+  const s=dnum(start), e=dnum(deadline), d=days?parseInt(days,10):null;
+  if(which==="days"){
+    // days changed: prefer to recompute deadline from start; else start from deadline
+    if(s!==null && d) $("f-deadline").value=dstr(s + (d-1));
+    else if(e!==null && d) $("f-start").value=dstr(e - (d-1));
+  } else if(which==="start"){
+    if(s!==null && d) $("f-deadline").value=dstr(s + (d-1));        // keep days, move deadline
+    else if(s!==null && e!==null) $("f-days").value=(e-s+1);        // both dates -> compute days
+  } else if(which==="deadline"){
+    if(s!==null && e!==null) $("f-days").value=(e-s+1);             // compute days
+    else if(e!==null && d) $("f-start").value=dstr(e - (d-1));      // back-calc start
+  }
+  // sync into F
+  F.start=$("f-start").value; F.deadline=$("f-deadline").value; F.days=$("f-days").value;
+};
 function renderLinkPickers(){
   setupLinkPicker("pre", F.pre);
   setupLinkPicker("post", F.post);
@@ -654,8 +791,9 @@ window.saveCard=()=>{
   const id=editId||(Date.now().toString(36)+Math.random().toString(36).slice(2));
   const existing = cards[id]?norm(cards[id]):null;
   const card={ id, title, note:$("f-note").value.trim(), col:F.col, prio:F.prio,
-    rooms:F.rooms, cats:F.cats, pre:F.pre, post:F.post, attachments:F.attachments,
+    rooms:F.rooms, cats:F.cats, assignees:F.assignees, pre:F.pre, post:F.post, attachments:F.attachments,
     start:$("f-start").value, deadline:$("f-deadline").value,
+    days: $("f-days").value? parseInt($("f-days").value,10):"",
     ts: existing?.ts || Date.now() };
   cards[id]=card; window._dbSet(id,card);
 
@@ -679,12 +817,13 @@ function updateStats(){
   const circ=2*Math.PI*20; $("prog-circle").setAttribute("stroke-dasharray",(circ*pct/100)+" "+circ);
 }
 function buildFilters(){
-  const r=$("room-filters"),c=$("cat-filters"),p=$("prio-filters"); if(!r||!c||!p)return;
+  const r=$("room-filters"),c=$("cat-filters"),p=$("prio-filters"),a=$("assignee-filters"); if(!r||!c||!p)return;
   r.innerHTML=["All",...ROOMS].map(x=>'<button class="pill'+(fRoom===x?" active":"")+'" onclick="setRoom(\''+x+'\')">'+(x==="All"?"🏠 All":ROOM_ICON[x]+" "+x)+'</button>').join("");
   c.innerHTML=["All",...allCats()].map(x=>'<button class="pill'+(fCat===x?" active":"")+'" onclick="setCat(\''+jsq(x)+'\')">'+esc(x)+'</button>').join("");
+  if(a) a.innerHTML=["All",...allPeople()].map(x=>'<button class="pill'+(fAssignee===x?" active":"")+'" onclick="setAssignee(\''+jsq(x)+'\')">'+(x==="All"?"All":"👤 "+esc(x))+'</button>').join("");
   p.innerHTML=["All",...PRIO].map(x=>'<button class="pill'+(fPrio===x?" active":"")+'" onclick="setPrio(\''+x+'\')" style="'+(fPrio===x&&PRIO_COLOR[x]?"border-color:"+PRIO_COLOR[x]+";color:"+PRIO_COLOR[x]:"")+'">'+x+'</button>').join("");
 }
-window.setRoom=x=>{fRoom=x;render();}; window.setCat=x=>{fCat=x;render();}; window.setPrio=x=>{fPrio=x;render();};
+window.setRoom=x=>{fRoom=x;render();}; window.setCat=x=>{fCat=x;render();}; window.setPrio=x=>{fPrio=x;render();}; window.setAssignee=x=>{fAssignee=x;render();};
 
 function showToast(msg,err=false){const t=$("toast");t.textContent=msg;t.style.background=err?"#CC2222":"#1A5C3A";t.classList.add("show");setTimeout(()=>t.classList.remove("show"),2200);}
 function esc(s){return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
@@ -752,7 +891,7 @@ window.renderGantt = function renderGantt(){
     rows+='<div class="gantt-row" data-id="'+t.id+'">'+
       '<div class="gantt-label"><span class="dot" style="background:'+accent+'"></span><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="'+esc(t.title)+'">'+esc(t.title)+'</span></div>'+
       '<div class="gantt-track" style="width:'+(days*W)+'px;position:relative;height:37px">'+
-        '<div class="gantt-bar" data-id="'+t.id+'" style="left:'+left+'px;width:'+width+'px;background:'+accent+'" title="'+esc(t.title)+' ('+(t.start||"?")+' → '+(t.deadline||"?")+')">'+
+        '<div class="gantt-bar" data-id="'+t.id+'" style="left:'+left+'px;width:'+width+'px;background:'+accent+';box-shadow:0 0 0 2px '+RAG[ragStatus(t)]+' inset" title="'+esc(t.title)+' — '+ragLabel(ragStatus(t))+' ('+(t.start||"?")+' → '+(t.deadline||"?")+')">'+
           '<div class="gantt-handle l"></div>'+esc(t.title)+'<div class="gantt-handle r"></div>'+
         '</div>'+
       '</div>'+
@@ -790,21 +929,50 @@ window.ganttZoomFn=(d)=>{ ganttZoom=Math.max(10,Math.min(60,ganttZoom+d)); rende
 function attachGanttDrag(minD, W, labelW){
   document.querySelectorAll(".gantt-bar").forEach(bar=>{
     const id=bar.dataset.id;
+    bar.style.touchAction="none"; // prevent browser scroll-stealing during drag
     bar.addEventListener("dblclick",e=>{ e.stopPropagation(); const c=cards[id]; if(c)openModal(c.col,id); });
-    let mode=null, startX=0, origLeft=0, origWidth=0;
-    const onDown=(e,m)=>{ e.preventDefault(); e.stopPropagation(); mode=m; startX=e.clientX; origLeft=parseFloat(bar.style.left); origWidth=parseFloat(bar.style.width);
-      document.addEventListener("mousemove",onMove); document.addEventListener("mouseup",onUp); };
-    bar.addEventListener("mousedown",e=>{ if(e.target.classList.contains("gantt-handle"))return; onDown(e,"move"); });
-    bar.querySelector(".gantt-handle.l").addEventListener("mousedown",e=>onDown(e,"l"));
-    bar.querySelector(".gantt-handle.r").addEventListener("mousedown",e=>onDown(e,"r"));
+
+    let mode=null, startX=0, origLeft=0, origWidth=0, moved=false, lastTap=0, activePointer=null;
+
+    const getX = (e)=> (e.clientX!==undefined ? e.clientX : (e.touches&&e.touches[0]?e.touches[0].clientX:0));
+
+    const onDown=(e,m)=>{
+      e.preventDefault(); e.stopPropagation();
+      mode=m; moved=false; startX=getX(e); origLeft=parseFloat(bar.style.left); origWidth=parseFloat(bar.style.width);
+      activePointer = e.pointerId;
+      if(bar.setPointerCapture && e.pointerId!==undefined){ try{ bar.setPointerCapture(e.pointerId); }catch(_){} }
+      document.addEventListener("pointermove",onMove,{passive:false});
+      document.addEventListener("pointerup",onUp);
+      document.addEventListener("pointercancel",onUp);
+    };
+
+    // pointerdown covers mouse, touch, and pen
+    bar.addEventListener("pointerdown",e=>{
+      if(e.target.classList.contains("gantt-handle")) return; // handles below
+      // double-tap detection for touch (no dblclick on mobile)
+      const now=Date.now();
+      if(now-lastTap<300){ lastTap=0; const c=cards[id]; if(c)openModal(c.col,id); return; }
+      lastTap=now;
+      onDown(e,"move");
+    });
+    bar.querySelector(".gantt-handle.l").addEventListener("pointerdown",e=>onDown(e,"l"));
+    bar.querySelector(".gantt-handle.r").addEventListener("pointerdown",e=>onDown(e,"r"));
+
     function onMove(e){
-      const dx=e.clientX-startX; const dDays=Math.round(dx/W);
+      if(mode===null) return;
+      e.preventDefault();
+      const dx=getX(e)-startX; if(Math.abs(dx)>3) moved=true;
+      const dDays=Math.round(dx/W);
       if(mode==="move"){ bar.style.left=(origLeft+dDays*W)+"px"; }
       else if(mode==="l"){ const nl=origLeft+dDays*W, nw=origWidth-dDays*W; if(nw>=W){ bar.style.left=nl+"px"; bar.style.width=nw+"px"; } }
       else if(mode==="r"){ const nw=origWidth+dDays*W; if(nw>=W) bar.style.width=nw+"px"; }
     }
     function onUp(){
-      document.removeEventListener("mousemove",onMove); document.removeEventListener("mouseup",onUp);
+      document.removeEventListener("pointermove",onMove);
+      document.removeEventListener("pointerup",onUp);
+      document.removeEventListener("pointercancel",onUp);
+      if(mode===null) return;
+      if(!moved){ mode=null; return; } // a tap, not a drag — leave dates alone
       const newLeft=parseFloat(bar.style.left), newWidth=parseFloat(bar.style.width);
       const newS=minD+Math.round(newLeft/W); const newE=newS+Math.round(newWidth/W)-1;
       const c=norm(cards[id]); c.start=numToDate(newS); c.deadline=numToDate(newE); cards[id]=c; window._dbSet(id,c);
@@ -812,6 +980,108 @@ function attachGanttDrag(minD, W, labelW){
     }
   });
 }
+
+/* ══════════════════════ MARKDOWN EXPORT ══════════════════════ */
+window.exportMarkdown = function exportMarkdown(){
+  const all=Object.values(cards).map(norm);
+  const byId=id=>{ const c=cards[id]?norm(cards[id]):null; return c?c.title:id; };
+  let md="# Sankalpa Interiors — Renovation Tasks\n\n";
+  md+="_Flat 8A · Tower 8 · New Town — exported "+new Date().toLocaleString("en-IN")+"_\n\n";
+  const done=all.filter(c=>c.col==="done").length;
+  md+="**Progress:** "+done+" / "+all.length+" tasks complete ("+(all.length?Math.round(done/all.length*100):0)+"%)\n\n";
+  COLUMNS.forEach(col=>{
+    const list=all.filter(c=>c.col===col.id).sort((a,b)=>(a.deadline||"9999").localeCompare(b.deadline||"9999"));
+    if(!list.length) return;
+    md+="\n## "+col.emoji+" "+col.label+" ("+list.length+")\n\n";
+    list.forEach(c=>{
+      const rag=ragStatus(c); const dot={green:"🟢",amber:"🟡",red:"🔴",none:"⚪"}[rag];
+      md+="### "+dot+" "+c.title+"\n\n";
+      const meta=[];
+      if(c.prio) meta.push("**Priority:** "+c.prio);
+      if(c.assignees?.length) meta.push("**Assigned:** "+c.assignees.join(", "));
+      if(c.rooms?.length) meta.push("**Rooms:** "+c.rooms.join(", "));
+      if(c.cats?.length) meta.push("**Category:** "+c.cats.join(", "));
+      if(c.start) meta.push("**Start:** "+c.start);
+      if(c.deadline) meta.push("**Deadline:** "+c.deadline+" ("+ragLabel(rag)+")");
+      if(c.days) meta.push("**Days:** "+c.days);
+      if(meta.length) md+="- "+meta.join("\n- ")+"\n";
+      if(c.pre?.length)  md+="- **Pre-tasks:** "+c.pre.map(byId).join("; ")+"\n";
+      if(c.post?.length) md+="- **Post-tasks:** "+c.post.map(byId).join("; ")+"\n";
+      if(c.attachments?.length) md+="- **Attachments:** "+c.attachments.map(a=>"["+(a.name||"file")+"]("+a.url+")").join("; ")+"\n";
+      if(c.note) md+="\n"+c.note+"\n";
+      md+="\n";
+    });
+  });
+  const blob=new Blob([md],{type:"text/markdown;charset=utf-8"});
+  const url=URL.createObjectURL(blob); const a=document.createElement("a");
+  a.href=url; a.download="sankalpa-tasks-"+new Date().toISOString().slice(0,10)+".md";
+  document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+  showToast("Markdown exported ✓");
+};
+
+/* ══════════════════════ JS API (window.SankalpaAPI) ══════════════════════
+   Usable from the browser console or any script on this page. Writes to Firestore.
+   Examples:
+     SankalpaAPI.list()
+     SankalpaAPI.add({ title:"Buy bulbs", col:"todo", prio:"High", assignees:["Dona"], deadline:"2026-06-20" })
+     SankalpaAPI.edit("seed_3", { col:"done" })
+     SankalpaAPI.delete("seed_3")
+*/
+function apiCard(raw){
+  const id = raw.id || (Date.now().toString(36)+Math.random().toString(36).slice(2));
+  const c = norm({ ...raw, id });
+  c.title = raw.title!==undefined ? raw.title : c.title;
+  if(raw.col) c.col=raw.col;
+  return c;
+}
+window.SankalpaAPI = {
+  list(){ return Object.values(cards).map(norm); },
+  get(id){ return cards[id]?norm(cards[id]):null; },
+  add(data){
+    if(!data || !data.title) throw new Error("add() requires at least { title }");
+    const c=apiCard({ ...data, id:undefined });
+    cards[c.id]=c; window._dbSet(c.id,c);
+    syncReciprocal(c.id,"pre","post",c.pre||[],[]);
+    syncReciprocal(c.id,"post","pre",c.post||[],[]);
+    rerenderCurrent(); updateStats();
+    return c.id;
+  },
+  edit(id, patch){
+    if(!cards[id]) throw new Error("No task with id "+id);
+    const old=norm(cards[id]);
+    const merged=norm({ ...old, ...patch, id });
+    cards[id]=merged; window._dbSet(id,merged);
+    if(patch.pre)  syncReciprocal(id,"pre","post",merged.pre,old.pre);
+    if(patch.post) syncReciprocal(id,"post","pre",merged.post,old.post);
+    rerenderCurrent(); updateStats();
+    return merged;
+  },
+  delete(id){
+    if(!cards[id]) throw new Error("No task with id "+id);
+    delete cards[id]; window._dbDel(id); rerenderCurrent(); updateStats();
+    return true;
+  },
+  exportMarkdown(){ return window.exportMarkdown(); },
+  schema(){ return { fields:["title","note","col(todo|inprogress|blocked|done)","prio(Low|Medium|High|Urgent)","rooms[]","cats[]","assignees[]","start(YYYY-MM-DD)","deadline(YYYY-MM-DD)","days(int)","pre[ids]","post[ids]"], columns:COLUMNS.map(c=>c.id), people:allPeople(), categories:allCats() }; }
+};
+
+window.showApiHelp = function(){
+  const msg =
+"JavaScript API — open your browser console (F12) and use:\n\n"+
+"  SankalpaAPI.list()                       → all tasks\n"+
+"  SankalpaAPI.get(id)                      → one task\n"+
+"  SankalpaAPI.add({title:'...', col:'todo',\n"+
+"        prio:'High', assignees:['Dona'],\n"+
+"        deadline:'2026-06-20', days:5})    → returns new id\n"+
+"  SankalpaAPI.edit(id, {col:'done'})       → update fields\n"+
+"  SankalpaAPI.delete(id)                   → remove task\n"+
+"  SankalpaAPI.schema()                     → field reference\n"+
+"  SankalpaAPI.exportMarkdown()             → download .md\n\n"+
+"All changes write to Firestore and sync to every device.\n\n"+
+"Want a real HTTP REST API (callable from outside the browser)? That needs Firebase Cloud Functions — ask and I'll provide it.";
+  alert(msg);
+  console.log("%cSankalpaAPI ready","color:#5C3317;font-weight:bold;font-size:14px", window.SankalpaAPI);
+};
 </script>
 </body>
 </html>
