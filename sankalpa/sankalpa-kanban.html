@@ -12,7 +12,7 @@
      ═══════════════════════════════════════════════════════════════════════ -->
 <script>
 // Your web app's Firebase configuration
-const firebaseConfig = {
+window.FIREBASE_CONFIG = {
   apiKey: "AIzaSyDO1KIr028mWPlrWC2Us7qIaqghEiLvnzo",
   authDomain: "sankalpa-interiors-63474.firebaseapp.com",
   projectId: "sankalpa-interiors-63474",
@@ -21,21 +21,16 @@ const firebaseConfig = {
   appId: "1:211178214799:web:981d6af3827f3f70cf27fa"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-
   // ── ACCESS CONTROL ──────────────────────────────────────────────────────
   // Only these Google emails can use the app. Add your family's emails.
   // Leave [] to allow ANY signed-in Google account.
-  const ALLOWED_EMAILS = [
-    "soumyamaity@gmail.com", 
-	"srijeeta.dona@gmail.com", 
-	"niharmaity@gmail.com", 
-	"shuchismitadey88@gmail.com", 
-	"malabikabmaity@gmail.com",
-	"dr.gourab.das@gmail.com"
-
-    // "dona@example.com",
+  window.ALLOWED_EMAILS = [
+    "soumyamaity@gmail.com",
+    "srijeeta.dona@gmail.com",
+    "niharmaity@gmail.com",
+    "shuchismitadey88@gmail.com",
+    "malabikabmaity@gmail.com",
+    "dr.gourab.das@gmail.com"
   ];
 </script>
 
@@ -270,7 +265,7 @@ let formCol = "todo", formRoom = "General", formPrio = "Medium";
 let seeded = false, currentUser = null;
 
 try {
-  app = initializeApp(FIREBASE_CONFIG);
+  app = initializeApp(window.FIREBASE_CONFIG);
   db = getFirestore(app);
   auth = getAuth(app);
   provider = new GoogleAuthProvider();
@@ -292,7 +287,8 @@ window.signOutGoogle = async () => { await signOut(auth); location.reload(); };
 if (auth) onAuthStateChanged(auth, user => {
   if (user) {
     const email = (user.email || "").toLowerCase();
-    if (ALLOWED_EMAILS.length > 0 && !ALLOWED_EMAILS.map(e=>e.toLowerCase()).includes(email)) {
+    const allow = window.ALLOWED_EMAILS || [];
+    if (allow.length > 0 && !allow.map(e=>e.toLowerCase()).includes(email)) {
       document.getElementById("login-spinner").style.display = "none";
       document.getElementById("login-err").textContent = user.email + " is not authorised for this board.";
       signOut(auth); return;
