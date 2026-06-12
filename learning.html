@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Learning | Dr. Soumya Maity</title>
+  <meta name="description" content="Short daily learning notes — things learned, reading highlights, and quick takes.">
+  <link rel="icon" href="assets/images/site/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body data-page="learning">
+
+<nav class="nav">
+  <a href="index.html" class="nav-brand">Dr. Soumya <span class="accent">Maity</span></a>
+  <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index.html#now">Now</a></li>
+    <li><a href="index.html#research">Research</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="learning.html" class="active">Learning</a></li>
+    <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="page-head wrap">
+  <span class="kicker">Daily learning</span>
+  <h1 class="page-title">Things I <em>learned</em></h1>
+  <p class="page-intro">A running log of short notes — papers read, tools tried, ideas worth keeping. Newest first.</p>
+</div>
+
+<div class="wrap notes-wrap" id="learn-list">
+  <div class="loading">Loading notes</div>
+</div>
+
+<div class="wrap load-more-wrap">
+  <button class="btn" id="load-more" style="display:none">Earlier notes</button>
+</div>
+
+<footer class="footer wrap">
+  <span id="footer-text">&copy; Dr. Soumya Maity</span>
+  <span>smaity.co.in</span>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

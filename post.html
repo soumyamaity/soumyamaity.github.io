@@ -3,43 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Post | Dr. Soumyo Maity</title>
+  <title>Post | Dr. Soumya Maity</title>
   <link rel="icon" href="assets/images/site/favicon.png">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
-<body>
+<body data-page="post">
 
-<!-- Navigation -->
 <nav class="nav">
-  <a href="index.html" class="nav-brand">Soumyo <span>Maity</span></a>
+  <a href="index.html" class="nav-brand">Dr. Soumya <span class="accent">Maity</span></a>
   <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
-  <ul class="nav-links">
-    <li><a href="index.html#about">About</a></li>
-    <li><a href="index.html#skills">Skills</a></li>
-    <li><a href="index.html#experience">Experience</a></li>
-    <li><a href="index.html#publications">Publications</a></li>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index.html#now">Now</a></li>
+    <li><a href="index.html#research">Research</a></li>
     <li><a href="blog.html" class="active">Blog</a></li>
+    <li><a href="learning.html">Learning</a></li>
+    <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
   </ul>
 </nav>
 
-<div class="container">
-  <div class="post-header">
-    <a href="blog.html" class="post-back">&larr; Back to all posts</a>
-    <h1 class="post-title" id="post-title">Loading...</h1>
-    <div class="post-meta" id="post-meta"></div>
-    <div class="blog-card-tags" id="post-tags"></div>
-  </div>
+<div class="post-head wrap">
+  <div class="post-head-rule"><a href="blog.html" class="back-link" id="back-link">&larr; All posts</a></div>
+  <h1 class="post-title" id="post-title">Loading…</h1>
+  <div class="post-meta" id="post-meta"></div>
+  <div class="post-tags" id="post-tags"></div>
+</div>
 
-  <article class="post-content" id="post-content">
+<div class="wrap">
+  <img class="post-hero" id="post-hero" alt="" hidden>
+  <article class="prose" id="post-content">
     <div class="loading">Loading post</div>
   </article>
 </div>
 
-<footer class="footer container" style="margin-top:3rem">
-  <p>&copy; Soumyo Maity, 2024. All rights reserved.</p>
+<footer class="footer wrap">
+  <span id="footer-text">&copy; Dr. Soumya Maity</span>
+  <span>smaity.co.in</span>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<script src="js/main.js"></script>
+<script src="assets/js/site.js"></script>
 </body>
 </html>
