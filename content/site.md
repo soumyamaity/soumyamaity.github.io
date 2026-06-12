@@ -8,5 +8,5 @@ og_url: https://smaity.co.in
 domain: smaity.co.in
 nav_brand: Dr. Soumya Maity
 favicon: assets/images/site/favicon.png
-footer: © 2025 Dr. Soumya Maity · Bengaluru, India
+footer: © 2026 Dr. Soumya Maity · Bengaluru, India
 ---

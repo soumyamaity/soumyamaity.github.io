@@ -11,12 +11,20 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    # Site is pure static HTML — no build step needed.
-    # Just deploy the repo contents directly to the main branch.
+    # Regenerate the content manifests (blog / learning / projects) so
+    # adding a markdown file is all that's ever needed to publish.
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Build content manifests
+      run: python tools/build.py
+
+    # Deploy everything except dev-only folders to the main branch.
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3.9.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: main
         publish_dir: ./
-        exclude_assets: '.github,generate_manifest.py,script.py,read_frontmatter.py,.gitmodules,CLAUDE.md'
+        exclude_assets: '.github,archive,tools,local-server,CLAUDE.md,SECURITY.md,.claude'

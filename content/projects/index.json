@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "ai-threat-library",
+    "label": "AI Security",
+    "title": "Enterprise AI Threat Library",
+    "featured": true,
+    "order": 999
+  },
+  {
+    "slug": "pqc-readiness",
+    "label": "Post-Quantum Cryptography",
+    "title": "PQC Readiness for Dell Products",
+    "featured": true,
+    "order": 999
+  },
+  {
+    "slug": "oss-trust-model",
+    "label": "Supply Chain Security",
+    "title": "Open-Source Trustworthiness Model",
+    "featured": false,
+    "order": 999
+  },
+  {
+    "slug": "sbom-cbom",
+    "label": "Governance & Compliance",
+    "title": "SBOM + Crypto Bill of Materials",
+    "featured": false,
+    "order": 999
+  }
+]

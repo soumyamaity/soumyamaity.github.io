@@ -19,7 +19,7 @@ Tags: REVA University | Cryptography | DevSecOps | Cyber law
 
 ### Industry Memberships
 Active member and working group participant across the global security community — contributing to standards, frameworks, and the next generation of security practitioners.
-Tags: OWASP | IEEE | SANS | Safecode | DSCI | BSIDES
+Tags: [OWASP](https://owasp.com) | IEEE | SANS | Safecode | DSCI | BSIDES | OSSF
 
 ### Working Groups
 Contributing member of standards-setting bodies shaping how the industry measures, communicates, and responds to security risk in the post-quantum and AI era.
