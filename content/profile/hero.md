@@ -1,5 +1,5 @@
 ---
-eyebrow: BusinessWorld Security 40under40 · DELL Gamechanger
+eyebrow: BSides CyberSecurity Leader of the Year 2026 · BusinessWorld Security 40under40 2024· DELL Gamechanger
 headline: Hi, I'm Maity.
 tagline: I build the security foundations that AI-era products run on.
 photo: assets/images/author/maity.png
